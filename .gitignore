@@ -1,0 +1,10 @@
+
+# Auto generated 
+__pycache__
+.DS_Store
+
+# Random files 
+ClassDiagram.md
+
+# text file from running help(Main).  Contains docstrings of entire Main.py file.
+Doc.txt  

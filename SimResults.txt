@@ -1,752 +1,864 @@
 <<<<< New Simulation >>>>>
+Number of weeks: 1
+Number of travelers: 100
+Max Capacity per plane: 25
 ********** Week 1 **********
+Locations of travelers.
+DIA 9 ['Deion_1', 'Britney_1', 'Football Team_1', 'Sam_2', 'Anastasia_2', 'Hockey Team_5', 'Elanor_6', 'Elanor_8', 'Basketball Team_8']
+ORD 20 ['Sam_1', 'Baseball Team_1', 'Basketball Team_1', 'Baseball Team_2', 'Deion_3', 'Britney_3', 'Baseball Team_3', 'Deion_4', 'Deion_5', 'Britney_5', 'Anastasia_6', 'Deion_7', 'Reid_7', 'Baseball Team_7', 'Hockey Team_8', 'Football Team_8', 'Reid_9', 'Britney_9', 'Hockey Team_9', 'Basketball Team_9']
+JFK 12 ['Elanor_1', 'Reid_1', 'Deion_2', 'Britney_2', 'Hockey Team_2', 'Football Team_2', 'Sam_3', 'Sam_6', 'Football Team_6', 'Sam_9', 'Ralphie_9', 'Baseball Team_9']
+LAX 19 ['Hockey Team_1', 'Ralphie_2', 'Basketball Team_2', 'Football Team_3', 'Basketball Team_3', 'Sam_4', 'Anastasia_4', 'Reid_4', 'Basketball Team_4', 'Sam_5', 'Reid_5', 'Ralphie_6', 'Basketball Team_6', 'Britney_7', 'Ralphie_7', 'Football Team_7', 'Deion_8', 'Reid_8', 'Ralphie_8']
+DFW 13 ['Reid_3', 'Elanor_4', 'Britney_4', 'Anastasia_5', 'Football Team_5', 'Hockey Team_6', 'Sam_7', 'Anastasia_7', 'Sam_8', 'Anastasia_8', 'Baseball Team_8', 'Elanor_9', 'Deion_10']
+SFO 14 ['Anastasia_1', 'Ralphie_1', 'Elanor_3', 'Anastasia_3', 'Hockey Team_3', 'Ralphie_3', 'Ralphie_4', 'Football Team_4', 'Ralphie_5', 'Basketball Team_5', 'Hockey Team_7', 'Britney_8', 'Deion_9', 'Football Team_9']
+BOS 13 ['Elanor_2', 'Reid_2', 'Hockey Team_4', 'Baseball Team_4', 'Elanor_5', 'Baseball Team_5', 'Deion_6', 'Reid_6', 'Britney_6', 'Baseball Team_6', 'Elanor_7', 'Basketball Team_7', 'Anastasia_9']
+
+
 ***** Monday *****
 Scheduling flights....
-Scheduled flight DIA_ORD_0 on 1-Monday.
-Scheduled flight DIA_ORD_1 on 1-Monday.
-Scheduled flight DIA_ORD_2 on 1-Monday.
-Scheduled flight ORD_DIA_3 on 1-Monday.
-Scheduled flight ORD_DIA_4 on 1-Monday.
-Scheduled flight ORD_DIA_5 on 1-Monday.
-Scheduled flight ORD_DIA_6 on 1-Monday.
-Scheduled flight DIA_JFK_7 on 1-Monday.
-Scheduled flight DIA_JFK_8 on 1-Monday.
-Scheduled flight DIA_JFK_9 on 1-Monday.
-Scheduled flight JFK_DIA_10 on 1-Monday.
-Scheduled flight JFK_DIA_11 on 1-Monday.
-Scheduled flight JFK_DIA_12 on 1-Monday.
-Scheduled flight JFK_DIA_13 on 1-Monday.
-Scheduled flight DIA_LAX_14 on 1-Monday.
-Scheduled flight DIA_LAX_15 on 1-Monday.
-Scheduled flight DIA_LAX_16 on 1-Monday.
-Scheduled flight LAX_DIA_17 on 1-Monday.
-Scheduled flight LAX_DIA_18 on 1-Monday.
-Scheduled flight LAX_DIA_19 on 1-Monday.
-Scheduled flight LAX_DIA_20 on 1-Monday.
-Scheduled flight DIA_DFW_21 on 1-Monday.
-Scheduled flight DIA_DFW_22 on 1-Monday.
-Scheduled flight DFW_DIA_23 on 1-Monday.
-Scheduled flight DFW_DIA_24 on 1-Monday.
-Scheduled flight DFW_DIA_25 on 1-Monday.
-Scheduled flight DIA_SFO_26 on 1-Monday.
-Scheduled flight DIA_SFO_27 on 1-Monday.
-Scheduled flight SFO_DIA_28 on 1-Monday.
-Scheduled flight SFO_DIA_29 on 1-Monday.
-Scheduled flight DIA_BOS_30 on 1-Monday.
-Scheduled flight BOS_DIA_31 on 1-Monday.
+Scheduled flight DIA_ORD_AA_0 on plane AA-1 on 1-Monday.
+Scheduled flight DIA_ORD_AA_1 on plane AA-2 on 1-Monday.
+Scheduled flight DIA_ORD_AA_2 on plane AA-3 on 1-Monday.
+Scheduled flight DIA_ORD_AA_3 on plane AA-4 on 1-Monday.
+Scheduled flight ORD_DIA_UA_4 on plane UA-5 on 1-Monday.
+Scheduled flight ORD_DIA_UA_5 on plane UA-6 on 1-Monday.
+Scheduled flight ORD_DIA_UA_6 on plane UA-7 on 1-Monday.
+Scheduled flight ORD_DIA_AA_7 on plane AA-8 on 1-Monday.
+Scheduled flight DIA_JFK_DA_8 on plane DA-9 on 1-Monday.
+Scheduled flight DIA_JFK_DA_9 on plane DA-10 on 1-Monday.
+Scheduled flight DIA_JFK_DA_10 on plane DA-11 on 1-Monday.
+Scheduled flight DIA_JFK_AA_11 on plane AA-12 on 1-Monday.
+Scheduled flight JFK_DIA_AA_12 on plane AA-13 on 1-Monday.
+Scheduled flight JFK_DIA_DA_13 on plane DA-14 on 1-Monday.
+Scheduled flight JFK_DIA_AA_14 on plane AA-15 on 1-Monday.
+Scheduled flight JFK_DIA_AA_15 on plane AA-16 on 1-Monday.
+Scheduled flight DIA_LAX_AA_16 on plane AA-17 on 1-Monday.
+Scheduled flight DIA_LAX_AA_17 on plane AA-18 on 1-Monday.
+Scheduled flight DIA_LAX_JB_18 on plane JB-19 on 1-Monday.
+Scheduled flight DIA_LAX_UA_19 on plane UA-20 on 1-Monday.
+Scheduled flight LAX_DIA_AA_20 on plane AA-21 on 1-Monday.
+Scheduled flight LAX_DIA_AA_21 on plane AA-22 on 1-Monday.
+Scheduled flight LAX_DIA_UA_22 on plane UA-23 on 1-Monday.
+Scheduled flight LAX_DIA_JB_23 on plane JB-24 on 1-Monday.
+Scheduled flight DIA_DFW_UA_24 on plane UA-25 on 1-Monday.
+Scheduled flight DIA_DFW_UA_25 on plane UA-26 on 1-Monday.
+Scheduled flight DIA_DFW_AA_26 on plane AA-27 on 1-Monday.
+Scheduled flight DFW_DIA_AA_27 on plane AA-28 on 1-Monday.
+Scheduled flight DFW_DIA_UA_28 on plane UA-29 on 1-Monday.
+Scheduled flight DFW_DIA_UA_29 on plane UA-30 on 1-Monday.
+Scheduled flight DIA_SFO_DA_30 on plane DA-31 on 1-Monday.
+Scheduled flight DIA_SFO_UA_31 on plane UA-32 on 1-Monday.
+Scheduled flight DIA_SFO_UA_32 on plane UA-33 on 1-Monday.
+Scheduled flight SFO_DIA_UA_33 on plane UA-34 on 1-Monday.
+Scheduled flight SFO_DIA_AA_34 on plane AA-35 on 1-Monday.
+Scheduled flight SFO_DIA_AA_35 on plane AA-36 on 1-Monday.
+Scheduled flight DIA_BOS_JB_36 on plane JB-37 on 1-Monday.
+Scheduled flight BOS_DIA_DA_37 on plane DA-38 on 1-Monday.
 All flights scheduled for Monday, week 1
-***** Tuesday *****
-Scheduling flights....
-Scheduled flight DIA_ORD_32 on 1-Tuesday.
-Scheduled flight DIA_ORD_33 on 1-Tuesday.
-Scheduled flight DIA_ORD_34 on 1-Tuesday.
-Scheduled flight DIA_ORD_35 on 1-Tuesday.
-Scheduled flight ORD_DIA_36 on 1-Tuesday.
-Scheduled flight ORD_DIA_37 on 1-Tuesday.
-Scheduled flight ORD_DIA_38 on 1-Tuesday.
-Scheduled flight DIA_JFK_39 on 1-Tuesday.
-Scheduled flight DIA_JFK_40 on 1-Tuesday.
-Scheduled flight DIA_JFK_41 on 1-Tuesday.
-Scheduled flight DIA_JFK_42 on 1-Tuesday.
-Scheduled flight JFK_DIA_43 on 1-Tuesday.
-Scheduled flight JFK_DIA_44 on 1-Tuesday.
-Scheduled flight JFK_DIA_45 on 1-Tuesday.
-Scheduled flight DIA_LAX_46 on 1-Tuesday.
-Scheduled flight DIA_LAX_47 on 1-Tuesday.
-Scheduled flight DIA_LAX_48 on 1-Tuesday.
-Scheduled flight DIA_LAX_49 on 1-Tuesday.
-Scheduled flight LAX_DIA_50 on 1-Tuesday.
-Scheduled flight LAX_DIA_51 on 1-Tuesday.
-Scheduled flight LAX_DIA_52 on 1-Tuesday.
-Scheduled flight DIA_DFW_53 on 1-Tuesday.
-Scheduled flight DIA_DFW_54 on 1-Tuesday.
-Scheduled flight DFW_DIA_55 on 1-Tuesday.
-Scheduled flight DFW_DIA_56 on 1-Tuesday.
-Scheduled flight DIA_SFO_57 on 1-Tuesday.
-Scheduled flight DIA_SFO_58 on 1-Tuesday.
-Scheduled flight SFO_DIA_59 on 1-Tuesday.
-Scheduled flight SFO_DIA_60 on 1-Tuesday.
-Scheduled flight DIA_BOS_61 on 1-Tuesday.
-Scheduled flight BOS_DIA_62 on 1-Tuesday.
-All flights scheduled for Tuesday, week 1
-***** Wednesday *****
-Scheduling flights....
-Scheduled flight DIA_ORD_63 on 1-Wednesday.
-Scheduled flight DIA_ORD_64 on 1-Wednesday.
-Scheduled flight DIA_ORD_65 on 1-Wednesday.
-Scheduled flight DIA_ORD_66 on 1-Wednesday.
-Scheduled flight ORD_DIA_67 on 1-Wednesday.
-Scheduled flight ORD_DIA_68 on 1-Wednesday.
-Scheduled flight ORD_DIA_69 on 1-Wednesday.
-Scheduled flight ORD_DIA_70 on 1-Wednesday.
-Scheduled flight DIA_JFK_71 on 1-Wednesday.
-Scheduled flight DIA_JFK_72 on 1-Wednesday.
-Scheduled flight DIA_JFK_73 on 1-Wednesday.
-Scheduled flight DIA_JFK_74 on 1-Wednesday.
-Scheduled flight JFK_DIA_75 on 1-Wednesday.
-Scheduled flight JFK_DIA_76 on 1-Wednesday.
-Scheduled flight JFK_DIA_77 on 1-Wednesday.
-Scheduled flight JFK_DIA_78 on 1-Wednesday.
-Scheduled flight DIA_LAX_79 on 1-Wednesday.
-Scheduled flight DIA_LAX_80 on 1-Wednesday.
-Scheduled flight DIA_LAX_81 on 1-Wednesday.
-Scheduled flight DIA_LAX_82 on 1-Wednesday.
-Scheduled flight LAX_DIA_83 on 1-Wednesday.
-Scheduled flight LAX_DIA_84 on 1-Wednesday.
-Scheduled flight LAX_DIA_85 on 1-Wednesday.
-Scheduled flight LAX_DIA_86 on 1-Wednesday.
-Scheduled flight DIA_DFW_87 on 1-Wednesday.
-Scheduled flight DIA_DFW_88 on 1-Wednesday.
-Scheduled flight DIA_DFW_89 on 1-Wednesday.
-Scheduled flight DFW_DIA_90 on 1-Wednesday.
-Scheduled flight DFW_DIA_91 on 1-Wednesday.
-Scheduled flight DIA_SFO_92 on 1-Wednesday.
-Scheduled flight DIA_SFO_93 on 1-Wednesday.
-Scheduled flight DIA_SFO_94 on 1-Wednesday.
-Scheduled flight SFO_DIA_95 on 1-Wednesday.
-Scheduled flight SFO_DIA_96 on 1-Wednesday.
-Scheduled flight DIA_BOS_97 on 1-Wednesday.
-Scheduled flight BOS_DIA_98 on 1-Wednesday.
-All flights scheduled for Wednesday, week 1
-***** Thursday *****
-Scheduling flights....
-Scheduled flight DIA_ORD_99 on 1-Thursday.
-Scheduled flight DIA_ORD_100 on 1-Thursday.
-Scheduled flight DIA_ORD_101 on 1-Thursday.
-Scheduled flight DIA_ORD_102 on 1-Thursday.
-Scheduled flight ORD_DIA_103 on 1-Thursday.
-Scheduled flight ORD_DIA_104 on 1-Thursday.
-Scheduled flight ORD_DIA_105 on 1-Thursday.
-Scheduled flight ORD_DIA_106 on 1-Thursday.
-Scheduled flight DIA_JFK_107 on 1-Thursday.
-Scheduled flight DIA_JFK_108 on 1-Thursday.
-Scheduled flight DIA_JFK_109 on 1-Thursday.
-Scheduled flight DIA_JFK_110 on 1-Thursday.
-Scheduled flight JFK_DIA_111 on 1-Thursday.
-Scheduled flight JFK_DIA_112 on 1-Thursday.
-Scheduled flight JFK_DIA_113 on 1-Thursday.
-Scheduled flight JFK_DIA_114 on 1-Thursday.
-Scheduled flight DIA_LAX_115 on 1-Thursday.
-Scheduled flight DIA_LAX_116 on 1-Thursday.
-Scheduled flight DIA_LAX_117 on 1-Thursday.
-Scheduled flight DIA_LAX_118 on 1-Thursday.
-Scheduled flight LAX_DIA_119 on 1-Thursday.
-Scheduled flight LAX_DIA_120 on 1-Thursday.
-Scheduled flight LAX_DIA_121 on 1-Thursday.
-Scheduled flight LAX_DIA_122 on 1-Thursday.
-Scheduled flight DIA_DFW_123 on 1-Thursday.
-Scheduled flight DIA_DFW_124 on 1-Thursday.
-Scheduled flight DIA_DFW_125 on 1-Thursday.
-Scheduled flight DFW_DIA_126 on 1-Thursday.
-Scheduled flight DFW_DIA_127 on 1-Thursday.
-Scheduled flight DFW_DIA_128 on 1-Thursday.
-Scheduled flight DIA_SFO_129 on 1-Thursday.
-Scheduled flight DIA_SFO_130 on 1-Thursday.
-Scheduled flight DIA_SFO_131 on 1-Thursday.
-Scheduled flight SFO_DIA_132 on 1-Thursday.
-Scheduled flight SFO_DIA_133 on 1-Thursday.
-Scheduled flight SFO_DIA_134 on 1-Thursday.
-Scheduled flight DIA_BOS_135 on 1-Thursday.
-Scheduled flight BOS_DIA_136 on 1-Thursday.
-All flights scheduled for Thursday, week 1
-***** Friday *****
-Scheduling flights....
-Scheduled flight DIA_ORD_137 on 1-Friday.
-Scheduled flight DIA_ORD_138 on 1-Friday.
-Scheduled flight DIA_ORD_139 on 1-Friday.
-Scheduled flight DIA_ORD_140 on 1-Friday.
-Scheduled flight ORD_DIA_141 on 1-Friday.
-Scheduled flight ORD_DIA_142 on 1-Friday.
-Scheduled flight ORD_DIA_143 on 1-Friday.
-Scheduled flight ORD_DIA_144 on 1-Friday.
-Scheduled flight DIA_JFK_145 on 1-Friday.
-Scheduled flight DIA_JFK_146 on 1-Friday.
-Scheduled flight DIA_JFK_147 on 1-Friday.
-Scheduled flight DIA_JFK_148 on 1-Friday.
-Scheduled flight JFK_DIA_149 on 1-Friday.
-Scheduled flight JFK_DIA_150 on 1-Friday.
-Scheduled flight JFK_DIA_151 on 1-Friday.
-Scheduled flight JFK_DIA_152 on 1-Friday.
-Scheduled flight DIA_LAX_153 on 1-Friday.
-Scheduled flight DIA_LAX_154 on 1-Friday.
-Scheduled flight DIA_LAX_155 on 1-Friday.
-Scheduled flight DIA_LAX_156 on 1-Friday.
-Scheduled flight LAX_DIA_157 on 1-Friday.
-Scheduled flight LAX_DIA_158 on 1-Friday.
-Scheduled flight LAX_DIA_159 on 1-Friday.
-Scheduled flight LAX_DIA_160 on 1-Friday.
-Scheduled flight DIA_DFW_161 on 1-Friday.
-Scheduled flight DIA_DFW_162 on 1-Friday.
-Scheduled flight DIA_DFW_163 on 1-Friday.
-Scheduled flight DFW_DIA_164 on 1-Friday.
-Scheduled flight DFW_DIA_165 on 1-Friday.
-Scheduled flight DFW_DIA_166 on 1-Friday.
-Scheduled flight DIA_SFO_167 on 1-Friday.
-Scheduled flight DIA_SFO_168 on 1-Friday.
-Scheduled flight SFO_DIA_169 on 1-Friday.
-Scheduled flight SFO_DIA_170 on 1-Friday.
-Scheduled flight SFO_DIA_171 on 1-Friday.
-Scheduled flight DIA_BOS_172 on 1-Friday.
-Scheduled flight BOS_DIA_173 on 1-Friday.
-Scheduled flight BOS_DIA_174 on 1-Friday.
-All flights scheduled for Friday, week 1
 ---------- Booking [Monday] ----------
-Successfully booked ticket from DIA to ORD for Deion_1 on flight DIA_ORD_0
-Successfully booked ticket from DIA to BOS for Elanor_1 on flight DIA_BOS_30
-Successfully booked ticket from DIA to DFW for Sam_1 on flight DIA_DFW_21
-Successfully booked ticket from DIA to JFK for Anastasia_1 on flight DIA_JFK_7
-Successfully booked ticket from DIA to DFW for Reid_1 on flight DIA_DFW_21
-Successfully booked ticket from DIA to BOS for Britney_1 on flight DIA_BOS_30
-Successfully booked ticket from DIA to SFO for Hockey Team_1 on flight DIA_SFO_26
-Successfully booked ticket from DIA to DFW for Ralphie_1 on flight DIA_DFW_21
-Successfully booked ticket from DIA to BOS for Football Team_1 on flight DIA_BOS_30
-Successfully booked ticket from DIA to ORD for Baseball Team_1 on flight DIA_ORD_0
-Successfully booked ticket from DIA to BOS for Basketball Team_1 on flight DIA_BOS_30
-Successfully booked ticket from DIA to SFO for Deion_2 on flight DIA_SFO_26
-Successfully booked ticket from DIA to BOS for Elanor_2 on flight DIA_BOS_30
-Successfully booked ticket from DIA to BOS for Sam_2 on flight DIA_BOS_30
-Successfully booked ticket from DIA to LAX for Anastasia_2 on flight DIA_LAX_14
-Successfully booked ticket from DIA to LAX for Reid_2 on flight DIA_LAX_14
-Successfully booked ticket from DIA to BOS for Britney_2 on flight DIA_BOS_30
-Successfully booked ticket from DIA to LAX for Hockey Team_2 on flight DIA_LAX_14
-Successfully booked ticket from DIA to SFO for Ralphie_2 on flight DIA_SFO_26
-Successfully booked ticket from DIA to LAX for Football Team_2 on flight DIA_LAX_14
-Successfully booked ticket from DIA to ORD for Baseball Team_2 on flight DIA_ORD_0
-Successfully booked ticket from DIA to LAX for Basketball Team_2 on flight DIA_LAX_14
-Successfully booked ticket from DIA to DFW for Deion_3 on flight DIA_DFW_21
-Successfully booked ticket from DIA to BOS for Elanor_3 on flight DIA_BOS_30
-Successfully booked ticket from DIA to LAX for Sam_3 on flight DIA_LAX_14
-Successfully booked ticket from DIA to ORD for Anastasia_3 on flight DIA_ORD_0
-Successfully booked ticket from DIA to LAX for Reid_3 on flight DIA_LAX_14
-Successfully booked ticket from DIA to LAX for Britney_3 on flight DIA_LAX_14
-Successfully booked ticket from DIA to BOS for Hockey Team_3 on flight DIA_BOS_30
-Successfully booked ticket from DIA to LAX for Ralphie_3 on flight DIA_LAX_14
-Successfully booked ticket from DIA to JFK for Football Team_3 on flight DIA_JFK_7
-Successfully booked ticket from DIA to JFK for Baseball Team_3 on flight DIA_JFK_7
-Successfully booked ticket from DIA to LAX for Basketball Team_3 on flight DIA_LAX_14
-Successfully booked ticket from DIA to ORD for Deion_4 on flight DIA_ORD_0
-Successfully booked ticket from DIA to ORD for Elanor_4 on flight DIA_ORD_0
-Successfully booked ticket from DIA to JFK for Sam_4 on flight DIA_JFK_7
-Successfully booked ticket from DIA to LAX for Anastasia_4 on flight DIA_LAX_14
-Successfully booked ticket from DIA to ORD for Reid_4 on flight DIA_ORD_0
-Successfully booked ticket from DIA to JFK for Britney_4 on flight DIA_JFK_7
-Successfully booked ticket from DIA to BOS for Hockey Team_4 on flight DIA_BOS_30
-Successfully booked ticket from DIA to LAX for Ralphie_4 on flight DIA_LAX_14
-Successfully booked ticket from DIA to DFW for Football Team_4 on flight DIA_DFW_21
-Successfully booked ticket from DIA to BOS for Baseball Team_4 on flight DIA_BOS_30
-Successfully booked ticket from DIA to BOS for Basketball Team_4 on flight DIA_BOS_30
-Successfully booked ticket from DIA to ORD for Deion_5 on flight DIA_ORD_0
-Successfully booked ticket from DIA to LAX for Elanor_5 on flight DIA_LAX_14
-Successfully booked ticket from DIA to ORD for Sam_5 on flight DIA_ORD_0
-Successfully booked ticket from DIA to ORD for Anastasia_5 on flight DIA_ORD_0
-Successfully booked ticket from DIA to LAX for Reid_5 on flight DIA_LAX_14
-Successfully booked ticket from DIA to LAX for Britney_5 on flight DIA_LAX_14
-Successfully booked ticket from DIA to DFW for Hockey Team_5 on flight DIA_DFW_21
-Successfully booked ticket from DIA to ORD for Ralphie_5 on flight DIA_ORD_0
-Successfully booked ticket from DIA to DFW for Football Team_5 on flight DIA_DFW_21
-Successfully booked ticket from DIA to SFO for Baseball Team_5 on flight DIA_SFO_26
-Successfully booked ticket from DIA to DFW for Basketball Team_5 on flight DIA_DFW_21
-Successfully booked ticket from DIA to DFW for Deion_6 on flight DIA_DFW_21
-Successfully booked ticket from DIA to LAX for Elanor_6 on flight DIA_LAX_14
-Successfully booked ticket from DIA to SFO for Sam_6 on flight DIA_SFO_26
-Successfully booked ticket from DIA to LAX for Anastasia_6 on flight DIA_LAX_14
-Successfully booked ticket from DIA to JFK for Reid_6 on flight DIA_JFK_7
-Successfully booked ticket from DIA to BOS for Britney_6 on flight DIA_BOS_30
-Successfully booked ticket from DIA to DFW for Hockey Team_6 on flight DIA_DFW_21
-Successfully booked ticket from DIA to DFW for Ralphie_6 on flight DIA_DFW_21
-Successfully booked ticket from DIA to LAX for Football Team_6 on flight DIA_LAX_14
-Successfully booked ticket from DIA to DFW for Baseball Team_6 on flight DIA_DFW_21
-Successfully booked ticket from DIA to BOS for Basketball Team_6 on flight DIA_BOS_30
-Successfully booked ticket from DIA to SFO for Deion_7 on flight DIA_SFO_26
-Successfully booked ticket from DIA to LAX for Elanor_7 on flight DIA_LAX_14
-Successfully booked ticket from DIA to JFK for Sam_7 on flight DIA_JFK_7
-Successfully booked ticket from DIA to LAX for Anastasia_7 on flight DIA_LAX_14
-Successfully booked ticket from DIA to ORD for Reid_7 on flight DIA_ORD_0
-Successfully booked ticket from DIA to BOS for Britney_7 on flight DIA_BOS_30
-Successfully booked ticket from DIA to LAX for Hockey Team_7 on flight DIA_LAX_15
-Successfully booked ticket from DIA to ORD for Ralphie_7 on flight DIA_ORD_0
-Successfully booked ticket from DIA to JFK for Football Team_7 on flight DIA_JFK_7
-Successfully booked ticket from DIA to ORD for Baseball Team_7 on flight DIA_ORD_0
-Successfully booked ticket from DIA to LAX for Basketball Team_7 on flight DIA_LAX_15
-Successfully booked ticket from DIA to ORD for Deion_8 on flight DIA_ORD_0
-Successfully booked ticket from DIA to SFO for Elanor_8 on flight DIA_SFO_26
-Successfully booked ticket from DIA to JFK for Sam_8 on flight DIA_JFK_7
-Successfully booked ticket from DIA to ORD for Anastasia_8 on flight DIA_ORD_0
-Successfully booked ticket from DIA to DFW for Reid_8 on flight DIA_DFW_21
-Successfully booked ticket from DIA to JFK for Britney_8 on flight DIA_JFK_7
-Successfully booked ticket from DIA to ORD for Hockey Team_8 on flight DIA_ORD_0
-Successfully booked ticket from DIA to BOS for Ralphie_8 on flight DIA_BOS_30
-Successfully booked ticket from DIA to JFK for Football Team_8 on flight DIA_JFK_7
-Successfully booked ticket from DIA to SFO for Baseball Team_8 on flight DIA_SFO_26
-Successfully booked ticket from DIA to DFW for Basketball Team_8 on flight DIA_DFW_21
-Successfully booked ticket from DIA to BOS for Deion_9 on flight DIA_BOS_30
-Successfully booked ticket from DIA to BOS for Elanor_9 on flight DIA_BOS_30
-Successfully booked ticket from DIA to SFO for Sam_9 on flight DIA_SFO_26
-Successfully booked ticket from DIA to BOS for Anastasia_9 on flight DIA_BOS_30
-Successfully booked ticket from DIA to LAX for Reid_9 on flight DIA_LAX_15
-Successfully booked ticket from DIA to ORD for Britney_9 on flight DIA_ORD_0
-Successfully booked ticket from DIA to LAX for Hockey Team_9 on flight DIA_LAX_15
-Successfully booked ticket from DIA to DFW for Ralphie_9 on flight DIA_DFW_21
-Successfully booked ticket from DIA to SFO for Football Team_9 on flight DIA_SFO_26
-Successfully booked ticket from DIA to DFW for Baseball Team_9 on flight DIA_DFW_21
-Successfully booked ticket from DIA to BOS for Basketball Team_9 on flight DIA_BOS_30
-Successfully booked ticket from DIA to LAX for Deion_10 on flight DIA_LAX_15
+Successfully booked ticket from DIA to ORD for Deion_1 on flight DIA_ORD_AA_0
+Successfully booked ticket from JFK to DIA for Elanor_1 on flight JFK_DIA_AA_12
+Successfully booked ticket from ORD to DIA for Sam_1 on flight ORD_DIA_UA_4
+Successfully booked ticket from SFO to DIA for Anastasia_1 on flight SFO_DIA_UA_33
+Successfully booked ticket from JFK to DIA for Reid_1 on flight JFK_DIA_AA_12
+Successfully booked ticket from DIA to BOS for Britney_1 on flight DIA_BOS_JB_36
+Successfully booked ticket from LAX to DIA for Hockey Team_1 on flight LAX_DIA_AA_20
+Successfully booked ticket from SFO to DIA for Ralphie_1 on flight SFO_DIA_UA_33
+Successfully booked ticket from DIA to BOS for Football Team_1 on flight DIA_BOS_JB_36
+Successfully booked ticket from ORD to DIA for Baseball Team_1 on flight ORD_DIA_UA_4
+Successfully booked ticket from ORD to DIA for Basketball Team_1 on flight ORD_DIA_UA_4
+Successfully booked ticket from JFK to DIA for Deion_2 on flight JFK_DIA_AA_12
+Successfully booked ticket from BOS to DIA for Elanor_2 on flight BOS_DIA_DA_37
+Successfully booked ticket from DIA to JFK for Sam_2 on flight DIA_JFK_DA_8
+Successfully booked ticket from DIA to LAX for Anastasia_2 on flight DIA_LAX_AA_16
+Successfully booked ticket from BOS to DIA for Reid_2 on flight BOS_DIA_DA_37
+Successfully booked ticket from JFK to DIA for Britney_2 on flight JFK_DIA_AA_12
+Successfully booked ticket from JFK to DIA for Hockey Team_2 on flight JFK_DIA_AA_12
+Successfully booked ticket from LAX to DIA for Ralphie_2 on flight LAX_DIA_AA_20
+Successfully booked ticket from JFK to DIA for Football Team_2 on flight JFK_DIA_AA_12
+Successfully booked ticket from ORD to DIA for Baseball Team_2 on flight ORD_DIA_UA_4
+Successfully booked ticket from LAX to DIA for Basketball Team_2 on flight LAX_DIA_AA_20
+Successfully booked ticket from ORD to DIA for Deion_3 on flight ORD_DIA_UA_4
+Successfully booked ticket from SFO to DIA for Elanor_3 on flight SFO_DIA_UA_33
+Successfully booked ticket from JFK to DIA for Sam_3 on flight JFK_DIA_AA_12
+Successfully booked ticket from SFO to DIA for Anastasia_3 on flight SFO_DIA_UA_33
+Successfully booked ticket from DFW to DIA for Reid_3 on flight DFW_DIA_AA_27
+Successfully booked ticket from ORD to DIA for Britney_3 on flight ORD_DIA_UA_4
+Successfully booked ticket from SFO to DIA for Hockey Team_3 on flight SFO_DIA_UA_33
+Successfully booked ticket from SFO to DIA for Ralphie_3 on flight SFO_DIA_UA_33
+Successfully booked ticket from LAX to DIA for Football Team_3 on flight LAX_DIA_AA_20
+Successfully booked ticket from ORD to DIA for Baseball Team_3 on flight ORD_DIA_UA_4
+Successfully booked ticket from LAX to DIA for Basketball Team_3 on flight LAX_DIA_AA_20
+Successfully booked ticket from ORD to DIA for Deion_4 on flight ORD_DIA_UA_4
+Successfully booked ticket from DFW to DIA for Elanor_4 on flight DFW_DIA_AA_27
+Successfully booked ticket from LAX to DIA for Sam_4 on flight LAX_DIA_AA_20
+Successfully booked ticket from LAX to DIA for Anastasia_4 on flight LAX_DIA_AA_20
+Successfully booked ticket from LAX to DIA for Reid_4 on flight LAX_DIA_AA_20
+Successfully booked ticket from DFW to DIA for Britney_4 on flight DFW_DIA_AA_27
+Successfully booked ticket from BOS to DIA for Hockey Team_4 on flight BOS_DIA_DA_37
+Successfully booked ticket from SFO to DIA for Ralphie_4 on flight SFO_DIA_UA_33
+Successfully booked ticket from SFO to DIA for Football Team_4 on flight SFO_DIA_UA_33
+Successfully booked ticket from BOS to DIA for Baseball Team_4 on flight BOS_DIA_DA_37
+Successfully booked ticket from LAX to DIA for Basketball Team_4 on flight LAX_DIA_AA_20
+Successfully booked ticket from ORD to DIA for Deion_5 on flight ORD_DIA_UA_4
+Successfully booked ticket from BOS to DIA for Elanor_5 on flight BOS_DIA_DA_37
+Successfully booked ticket from LAX to DIA for Sam_5 on flight LAX_DIA_AA_20
+Successfully booked ticket from DFW to DIA for Anastasia_5 on flight DFW_DIA_AA_27
+Successfully booked ticket from LAX to DIA for Reid_5 on flight LAX_DIA_AA_20
+Successfully booked ticket from ORD to DIA for Britney_5 on flight ORD_DIA_UA_4
+Successfully booked ticket from DIA to JFK for Hockey Team_5 on flight DIA_JFK_DA_8
+Successfully booked ticket from SFO to DIA for Ralphie_5 on flight SFO_DIA_UA_33
+Successfully booked ticket from DFW to DIA for Football Team_5 on flight DFW_DIA_AA_27
+Successfully booked ticket from BOS to DIA for Baseball Team_5 on flight BOS_DIA_DA_37
+Successfully booked ticket from SFO to DIA for Basketball Team_5 on flight SFO_DIA_UA_33
+Successfully booked ticket from BOS to DIA for Deion_6 on flight BOS_DIA_DA_37
+Successfully booked ticket from DIA to JFK for Elanor_6 on flight DIA_JFK_DA_8
+Successfully booked ticket from JFK to DIA for Sam_6 on flight JFK_DIA_AA_12
+Successfully booked ticket from ORD to DIA for Anastasia_6 on flight ORD_DIA_UA_4
+Successfully booked ticket from BOS to DIA for Reid_6 on flight BOS_DIA_DA_37
+Successfully booked ticket from BOS to DIA for Britney_6 on flight BOS_DIA_DA_37
+Successfully booked ticket from DFW to DIA for Hockey Team_6 on flight DFW_DIA_AA_27
+Successfully booked ticket from LAX to DIA for Ralphie_6 on flight LAX_DIA_AA_20
+Successfully booked ticket from JFK to DIA for Football Team_6 on flight JFK_DIA_AA_12
+Successfully booked ticket from BOS to DIA for Baseball Team_6 on flight BOS_DIA_DA_37
+Successfully booked ticket from LAX to DIA for Basketball Team_6 on flight LAX_DIA_AA_20
+Successfully booked ticket from ORD to DIA for Deion_7 on flight ORD_DIA_UA_4
+Successfully booked ticket from BOS to DIA for Elanor_7 on flight BOS_DIA_DA_37
+Successfully booked ticket from DFW to DIA for Sam_7 on flight DFW_DIA_AA_27
+Successfully booked ticket from DFW to DIA for Anastasia_7 on flight DFW_DIA_AA_27
+Successfully booked ticket from ORD to DIA for Reid_7 on flight ORD_DIA_UA_4
+Successfully booked ticket from LAX to DIA for Britney_7 on flight LAX_DIA_AA_20
+Successfully booked ticket from SFO to DIA for Hockey Team_7 on flight SFO_DIA_UA_33
+Successfully booked ticket from LAX to DIA for Ralphie_7 on flight LAX_DIA_AA_20
+Successfully booked ticket from LAX to DIA for Football Team_7 on flight LAX_DIA_AA_20
+Successfully booked ticket from ORD to DIA for Baseball Team_7 on flight ORD_DIA_UA_4
+Successfully booked ticket from BOS to DIA for Basketball Team_7 on flight BOS_DIA_DA_37
+Successfully booked ticket from LAX to DIA for Deion_8 on flight LAX_DIA_AA_20
+Successfully booked ticket from DIA to BOS for Elanor_8 on flight DIA_BOS_JB_36
+Successfully booked ticket from DFW to DIA for Sam_8 on flight DFW_DIA_AA_27
+Successfully booked ticket from DFW to DIA for Anastasia_8 on flight DFW_DIA_AA_27
+Successfully booked ticket from LAX to DIA for Reid_8 on flight LAX_DIA_AA_20
+Successfully booked ticket from SFO to DIA for Britney_8 on flight SFO_DIA_UA_33
+Successfully booked ticket from ORD to DIA for Hockey Team_8 on flight ORD_DIA_UA_4
+Successfully booked ticket from LAX to DIA for Ralphie_8 on flight LAX_DIA_AA_20
+Successfully booked ticket from ORD to DIA for Football Team_8 on flight ORD_DIA_UA_4
+Successfully booked ticket from DFW to DIA for Baseball Team_8 on flight DFW_DIA_AA_27
+Successfully booked ticket from DIA to LAX for Basketball Team_8 on flight DIA_LAX_AA_16
+Successfully booked ticket from SFO to DIA for Deion_9 on flight SFO_DIA_UA_33
+Successfully booked ticket from DFW to DIA for Elanor_9 on flight DFW_DIA_AA_27
+Successfully booked ticket from JFK to DIA for Sam_9 on flight JFK_DIA_AA_12
+Successfully booked ticket from BOS to DIA for Anastasia_9 on flight BOS_DIA_DA_37
+Successfully booked ticket from ORD to DIA for Reid_9 on flight ORD_DIA_UA_4
+Successfully booked ticket from ORD to DIA for Britney_9 on flight ORD_DIA_UA_4
+Successfully booked ticket from ORD to DIA for Hockey Team_9 on flight ORD_DIA_UA_4
+Successfully booked ticket from JFK to DIA for Ralphie_9 on flight JFK_DIA_AA_12
+Successfully booked ticket from SFO to DIA for Football Team_9 on flight SFO_DIA_UA_33
+Successfully booked ticket from JFK to DIA for Baseball Team_9 on flight JFK_DIA_AA_12
+Successfully booked ticket from ORD to DIA for Basketball Team_9 on flight ORD_DIA_UA_4
+Successfully booked ticket from DFW to DIA for Deion_10 on flight DFW_DIA_AA_27
 ---------- Finished Booking [Monday] ----------
 ===== Executing Monday =====
-Flight DIA_ORD_0 tookoff from DIA and landed in ORD with 18 passengers onboard.
-Flight DIA_JFK_7 tookoff from DIA and landed in JFK with 11 passengers onboard.
-Flight DIA_LAX_14 tookoff from DIA and landed in LAX with 20 passengers onboard.
-Flight DIA_LAX_15 tookoff from DIA and landed in LAX with 5 passengers onboard.
-Flight DIA_DFW_21 tookoff from DIA and landed in DFW with 16 passengers onboard.
-Flight DIA_SFO_26 tookoff from DIA and landed in SFO with 10 passengers onboard.
-Flight DIA_BOS_30 tookoff from DIA and landed in BOS with 20 passengers onboard.
+Flight DIA_ORD_AA_0 was delayed by mechanical issues with the plane
+Flight DIA_ORD_AA_0 tookoff from DIA and landed in ORD with 1 passengers onboard.
+Flight ORD_DIA_UA_4 was delayed due to poor weather
+Flight ORD_DIA_UA_4 tookoff from ORD and landed in DIA with 20 passengers onboard.
+Flight DIA_JFK_DA_8 tookoff from DIA and landed in JFK with 3 passengers onboard.
+Flight JFK_DIA_AA_12 tookoff from JFK and landed in DIA with 12 passengers onboard.
+Flight DIA_LAX_AA_16 tookoff from DIA and landed in LAX with 2 passengers onboard.
+Flight LAX_DIA_AA_20 was delayed by the Airline
+Flight LAX_DIA_AA_20 tookoff from LAX and landed in DIA with 19 passengers onboard.
+Flight DFW_DIA_AA_27 tookoff from DFW and landed in DIA with 13 passengers onboard.
+Flight SFO_DIA_UA_33 tookoff from SFO and landed in DIA with 14 passengers onboard.
+Flight DIA_BOS_JB_36 tookoff from DIA and landed in BOS with 3 passengers onboard.
+Flight BOS_DIA_DA_37 tookoff from BOS and landed in DIA with 13 passengers onboard.
 ===== Finished Executing Monday =====
+
+
+Locations of travelers.
+DIA 91 ['Elanor_1', 'Sam_1', 'Anastasia_1', 'Reid_1', 'Hockey Team_1', 'Ralphie_1', 'Baseball Team_1', 'Basketball Team_1', 'Deion_2', 'Elanor_2', 'Reid_2', 'Britney_2', 'Hockey Team_2', 'Ralphie_2', 'Football Team_2', 'Baseball Team_2', 'Basketball Team_2', 'Deion_3', 'Elanor_3', 'Sam_3', 'Anastasia_3', 'Reid_3', 'Britney_3', 'Hockey Team_3', 'Ralphie_3', 'Football Team_3', 'Baseball Team_3', 'Basketball Team_3', 'Deion_4', 'Elanor_4', 'Sam_4', 'Anastasia_4', 'Reid_4', 'Britney_4', 'Hockey Team_4', 'Ralphie_4', 'Football Team_4', 'Baseball Team_4', 'Basketball Team_4', 'Deion_5', 'Elanor_5', 'Sam_5', 'Anastasia_5', 'Reid_5', 'Britney_5', 'Ralphie_5', 'Football Team_5', 'Baseball Team_5', 'Basketball Team_5', 'Deion_6', 'Sam_6', 'Anastasia_6', 'Reid_6', 'Britney_6', 'Hockey Team_6', 'Ralphie_6', 'Football Team_6', 'Baseball Team_6', 'Basketball Team_6', 'Deion_7', 'Elanor_7', 'Sam_7', 'Anastasia_7', 'Reid_7', 'Britney_7', 'Hockey Team_7', 'Ralphie_7', 'Football Team_7', 'Baseball Team_7', 'Basketball Team_7', 'Deion_8', 'Sam_8', 'Anastasia_8', 'Reid_8', 'Britney_8', 'Hockey Team_8', 'Ralphie_8', 'Football Team_8', 'Baseball Team_8', 'Deion_9', 'Elanor_9', 'Sam_9', 'Anastasia_9', 'Reid_9', 'Britney_9', 'Hockey Team_9', 'Ralphie_9', 'Football Team_9', 'Baseball Team_9', 'Basketball Team_9', 'Deion_10']
+ORD 1 ['Deion_1']
+JFK 3 ['Sam_2', 'Hockey Team_5', 'Elanor_6']
+LAX 2 ['Anastasia_2', 'Basketball Team_8']
+DFW 0 []
+SFO 0 []
+BOS 3 ['Britney_1', 'Football Team_1', 'Elanor_8']
+
+
+***** Tuesday *****
+Scheduling flights....
+Scheduled flight DIA_ORD_UA_38 on plane UA-34 on 1-Tuesday.
+Scheduled flight DIA_ORD_AA_39 on plane AA-28 on 1-Tuesday.
+Scheduled flight DIA_ORD_AA_40 on plane AA-21 on 1-Tuesday.
+Scheduled flight DIA_ORD_UA_41 on plane UA-5 on 1-Tuesday.
+Scheduled flight ORD_DIA_AA_42 on plane AA-1 on 1-Tuesday.
+Scheduled flight ORD_DIA_AA_43 on plane AA-8 on 1-Tuesday.
+Scheduled flight ORD_DIA_AA_44 on plane AA-39 on 1-Tuesday.
+Scheduled flight ORD_DIA_AA_45 on plane AA-40 on 1-Tuesday.
+Scheduled flight DIA_JFK_DA_46 on plane DA-38 on 1-Tuesday.
+Scheduled flight DIA_JFK_DA_47 on plane DA-31 on 1-Tuesday.
+Scheduled flight DIA_JFK_DA_48 on plane DA-11 on 1-Tuesday.
+Scheduled flight DIA_JFK_DA_49 on plane DA-10 on 1-Tuesday.
+Scheduled flight JFK_DIA_AA_50 on plane AA-16 on 1-Tuesday.
+Scheduled flight JFK_DIA_DA_51 on plane DA-9 on 1-Tuesday.
+Scheduled flight JFK_DIA_DA_52 on plane DA-14 on 1-Tuesday.
+Scheduled flight JFK_DIA_DA_53 on plane DA-41 on 1-Tuesday.
+Scheduled flight DIA_LAX_JB_54 on plane JB-19 on 1-Tuesday.
+Scheduled flight DIA_LAX_JB_55 on plane JB-42 on 1-Tuesday.
+Scheduled flight DIA_LAX_AA_56 on plane AA-13 on 1-Tuesday.
+Scheduled flight DIA_LAX_AA_57 on plane AA-27 on 1-Tuesday.
+Scheduled flight LAX_DIA_JB_58 on plane JB-24 on 1-Tuesday.
+Scheduled flight LAX_DIA_UA_59 on plane UA-23 on 1-Tuesday.
+Scheduled flight LAX_DIA_AA_60 on plane AA-17 on 1-Tuesday.
+Scheduled flight LAX_DIA_JB_61 on plane JB-43 on 1-Tuesday.
+Scheduled flight DIA_DFW_AA_62 on plane AA-18 on 1-Tuesday.
+Scheduled flight DIA_DFW_AA_63 on plane AA-12 on 1-Tuesday.
+Scheduled flight DIA_DFW_UA_64 on plane UA-33 on 1-Tuesday.
+Scheduled flight DFW_DIA_AA_65 on plane AA-44 on 1-Tuesday.
+Scheduled flight DFW_DIA_UA_66 on plane UA-30 on 1-Tuesday.
+Scheduled flight DFW_DIA_UA_67 on plane UA-29 on 1-Tuesday.
+Scheduled flight DIA_SFO_DA_68 on plane DA-45 on 1-Tuesday.
+Scheduled flight DIA_SFO_AA_69 on plane AA-4 on 1-Tuesday.
+Scheduled flight DIA_SFO_UA_70 on plane UA-32 on 1-Tuesday.
+Scheduled flight SFO_DIA_AA_71 on plane AA-36 on 1-Tuesday.
+Scheduled flight SFO_DIA_AA_72 on plane AA-35 on 1-Tuesday.
+Scheduled flight SFO_DIA_AA_73 on plane AA-46 on 1-Tuesday.
+Scheduled flight DIA_BOS_JB_74 on plane JB-47 on 1-Tuesday.
+Scheduled flight DIA_BOS_DA_75 on plane DA-48 on 1-Tuesday.
+Scheduled flight BOS_DIA_JB_76 on plane JB-37 on 1-Tuesday.
+All flights scheduled for Tuesday, week 1
 ---------- Booking [Tuesday] ----------
-Successfully booked ticket from ORD to DIA for Deion_1 on flight ORD_DIA_36
-Successfully booked ticket from BOS to DIA for Elanor_1 on flight BOS_DIA_62
-Successfully booked ticket from DFW to DIA for Sam_1 on flight DFW_DIA_55
-Successfully booked ticket from JFK to DIA for Anastasia_1 on flight JFK_DIA_43
-Successfully booked ticket from DFW to DIA for Reid_1 on flight DFW_DIA_55
-Successfully booked ticket from BOS to DIA for Britney_1 on flight BOS_DIA_62
-Successfully booked ticket from SFO to DIA for Hockey Team_1 on flight SFO_DIA_59
-Successfully booked ticket from DFW to DIA for Ralphie_1 on flight DFW_DIA_55
-Successfully booked ticket from BOS to DIA for Football Team_1 on flight BOS_DIA_62
-Successfully booked ticket from ORD to DIA for Baseball Team_1 on flight ORD_DIA_36
-Successfully booked ticket from BOS to DIA for Basketball Team_1 on flight BOS_DIA_62
-Successfully booked ticket from SFO to DIA for Deion_2 on flight SFO_DIA_59
-Successfully booked ticket from BOS to DIA for Elanor_2 on flight BOS_DIA_62
-Successfully booked ticket from BOS to DIA for Sam_2 on flight BOS_DIA_62
-Successfully booked ticket from LAX to DIA for Anastasia_2 on flight LAX_DIA_50
-Successfully booked ticket from LAX to DIA for Reid_2 on flight LAX_DIA_50
-Successfully booked ticket from BOS to DIA for Britney_2 on flight BOS_DIA_62
-Successfully booked ticket from LAX to DIA for Hockey Team_2 on flight LAX_DIA_50
-Successfully booked ticket from SFO to DIA for Ralphie_2 on flight SFO_DIA_59
-Successfully booked ticket from LAX to DIA for Football Team_2 on flight LAX_DIA_50
-Successfully booked ticket from ORD to DIA for Baseball Team_2 on flight ORD_DIA_36
-Successfully booked ticket from LAX to DIA for Basketball Team_2 on flight LAX_DIA_50
-Successfully booked ticket from DFW to DIA for Deion_3 on flight DFW_DIA_55
-Successfully booked ticket from BOS to DIA for Elanor_3 on flight BOS_DIA_62
-Successfully booked ticket from LAX to DIA for Sam_3 on flight LAX_DIA_50
-Successfully booked ticket from ORD to DIA for Anastasia_3 on flight ORD_DIA_36
-Successfully booked ticket from LAX to DIA for Reid_3 on flight LAX_DIA_50
-Successfully booked ticket from LAX to DIA for Britney_3 on flight LAX_DIA_50
-Successfully booked ticket from BOS to DIA for Hockey Team_3 on flight BOS_DIA_62
-Successfully booked ticket from LAX to DIA for Ralphie_3 on flight LAX_DIA_50
-Successfully booked ticket from JFK to DIA for Football Team_3 on flight JFK_DIA_43
-Successfully booked ticket from JFK to DIA for Baseball Team_3 on flight JFK_DIA_43
-Successfully booked ticket from LAX to DIA for Basketball Team_3 on flight LAX_DIA_50
-Successfully booked ticket from ORD to DIA for Deion_4 on flight ORD_DIA_36
-Successfully booked ticket from ORD to DIA for Elanor_4 on flight ORD_DIA_36
-Successfully booked ticket from JFK to DIA for Sam_4 on flight JFK_DIA_43
-Successfully booked ticket from LAX to DIA for Anastasia_4 on flight LAX_DIA_50
-Successfully booked ticket from ORD to DIA for Reid_4 on flight ORD_DIA_36
-Successfully booked ticket from JFK to DIA for Britney_4 on flight JFK_DIA_43
-Successfully booked ticket from BOS to DIA for Hockey Team_4 on flight BOS_DIA_62
-Successfully booked ticket from LAX to DIA for Ralphie_4 on flight LAX_DIA_50
-Successfully booked ticket from DFW to DIA for Football Team_4 on flight DFW_DIA_55
-Successfully booked ticket from BOS to DIA for Baseball Team_4 on flight BOS_DIA_62
-Successfully booked ticket from BOS to DIA for Basketball Team_4 on flight BOS_DIA_62
-Successfully booked ticket from ORD to DIA for Deion_5 on flight ORD_DIA_36
-Successfully booked ticket from LAX to DIA for Elanor_5 on flight LAX_DIA_50
-Successfully booked ticket from ORD to DIA for Sam_5 on flight ORD_DIA_36
-Successfully booked ticket from ORD to DIA for Anastasia_5 on flight ORD_DIA_36
-Successfully booked ticket from LAX to DIA for Reid_5 on flight LAX_DIA_50
-Successfully booked ticket from LAX to DIA for Britney_5 on flight LAX_DIA_50
-Successfully booked ticket from DFW to DIA for Hockey Team_5 on flight DFW_DIA_55
-Successfully booked ticket from ORD to DIA for Ralphie_5 on flight ORD_DIA_36
-Successfully booked ticket from DFW to DIA for Football Team_5 on flight DFW_DIA_55
-Successfully booked ticket from SFO to DIA for Baseball Team_5 on flight SFO_DIA_59
-Successfully booked ticket from DFW to DIA for Basketball Team_5 on flight DFW_DIA_55
-Successfully booked ticket from DFW to DIA for Deion_6 on flight DFW_DIA_55
-Successfully booked ticket from LAX to DIA for Elanor_6 on flight LAX_DIA_50
-Successfully booked ticket from SFO to DIA for Sam_6 on flight SFO_DIA_59
-Successfully booked ticket from LAX to DIA for Anastasia_6 on flight LAX_DIA_50
-Successfully booked ticket from JFK to DIA for Reid_6 on flight JFK_DIA_43
-Successfully booked ticket from BOS to DIA for Britney_6 on flight BOS_DIA_62
-Successfully booked ticket from DFW to DIA for Hockey Team_6 on flight DFW_DIA_55
-Successfully booked ticket from DFW to DIA for Ralphie_6 on flight DFW_DIA_55
-Successfully booked ticket from LAX to DIA for Football Team_6 on flight LAX_DIA_50
-Successfully booked ticket from DFW to DIA for Baseball Team_6 on flight DFW_DIA_55
-Successfully booked ticket from BOS to DIA for Basketball Team_6 on flight BOS_DIA_62
-Successfully booked ticket from SFO to DIA for Deion_7 on flight SFO_DIA_59
-Successfully booked ticket from LAX to DIA for Elanor_7 on flight LAX_DIA_50
-Successfully booked ticket from JFK to DIA for Sam_7 on flight JFK_DIA_43
-Successfully booked ticket from LAX to DIA for Anastasia_7 on flight LAX_DIA_50
-Successfully booked ticket from ORD to DIA for Reid_7 on flight ORD_DIA_36
-Successfully booked ticket from BOS to DIA for Britney_7 on flight BOS_DIA_62
-Successfully booked ticket from LAX to DIA for Hockey Team_7 on flight LAX_DIA_51
-Successfully booked ticket from ORD to DIA for Ralphie_7 on flight ORD_DIA_36
-Successfully booked ticket from JFK to DIA for Football Team_7 on flight JFK_DIA_43
-Successfully booked ticket from ORD to DIA for Baseball Team_7 on flight ORD_DIA_36
-Successfully booked ticket from LAX to DIA for Basketball Team_7 on flight LAX_DIA_51
-Successfully booked ticket from ORD to DIA for Deion_8 on flight ORD_DIA_36
-Successfully booked ticket from SFO to DIA for Elanor_8 on flight SFO_DIA_59
-Successfully booked ticket from JFK to DIA for Sam_8 on flight JFK_DIA_43
-Successfully booked ticket from ORD to DIA for Anastasia_8 on flight ORD_DIA_36
-Successfully booked ticket from DFW to DIA for Reid_8 on flight DFW_DIA_55
-Successfully booked ticket from JFK to DIA for Britney_8 on flight JFK_DIA_43
-Successfully booked ticket from ORD to DIA for Hockey Team_8 on flight ORD_DIA_36
-Successfully booked ticket from BOS to DIA for Ralphie_8 on flight BOS_DIA_62
-Successfully booked ticket from JFK to DIA for Football Team_8 on flight JFK_DIA_43
-Successfully booked ticket from SFO to DIA for Baseball Team_8 on flight SFO_DIA_59
-Successfully booked ticket from DFW to DIA for Basketball Team_8 on flight DFW_DIA_55
-Successfully booked ticket from BOS to DIA for Deion_9 on flight BOS_DIA_62
-Successfully booked ticket from BOS to DIA for Elanor_9 on flight BOS_DIA_62
-Successfully booked ticket from SFO to DIA for Sam_9 on flight SFO_DIA_59
-Successfully booked ticket from BOS to DIA for Anastasia_9 on flight BOS_DIA_62
-Successfully booked ticket from LAX to DIA for Reid_9 on flight LAX_DIA_51
-Successfully booked ticket from ORD to DIA for Britney_9 on flight ORD_DIA_36
-Successfully booked ticket from LAX to DIA for Hockey Team_9 on flight LAX_DIA_51
-Successfully booked ticket from DFW to DIA for Ralphie_9 on flight DFW_DIA_55
-Successfully booked ticket from SFO to DIA for Football Team_9 on flight SFO_DIA_59
-Successfully booked ticket from DFW to DIA for Baseball Team_9 on flight DFW_DIA_55
-Successfully booked ticket from BOS to DIA for Basketball Team_9 on flight BOS_DIA_62
-Successfully booked ticket from LAX to DIA for Deion_10 on flight LAX_DIA_51
+Successfully booked ticket from ORD to DIA for Deion_1 on flight ORD_DIA_AA_42
+Successfully booked ticket from DIA to LAX for Elanor_1 on flight DIA_LAX_JB_54
+Successfully booked ticket from DIA to JFK for Sam_1 on flight DIA_JFK_DA_46
+Successfully booked ticket from DIA to LAX for Anastasia_1 on flight DIA_LAX_JB_54
+Successfully booked ticket from DIA to SFO for Reid_1 on flight DIA_SFO_DA_68
+Successfully booked ticket from BOS to DIA for Britney_1 on flight BOS_DIA_JB_76
+Successfully booked ticket from DIA to ORD for Hockey Team_1 on flight DIA_ORD_UA_38
+Successfully booked ticket from DIA to BOS for Ralphie_1 on flight DIA_BOS_JB_74
+Successfully booked ticket from BOS to DIA for Football Team_1 on flight BOS_DIA_JB_76
+Successfully booked ticket from DIA to LAX for Baseball Team_1 on flight DIA_LAX_JB_54
+Successfully booked ticket from DIA to SFO for Basketball Team_1 on flight DIA_SFO_DA_68
+Successfully booked ticket from DIA to ORD for Deion_2 on flight DIA_ORD_UA_38
+Successfully booked ticket from DIA to JFK for Elanor_2 on flight DIA_JFK_DA_46
+Successfully booked ticket from JFK to DIA for Sam_2 on flight JFK_DIA_AA_50
+Successfully booked ticket from LAX to DIA for Anastasia_2 on flight LAX_DIA_JB_58
+Successfully booked ticket from DIA to LAX for Reid_2 on flight DIA_LAX_JB_54
+Successfully booked ticket from DIA to ORD for Britney_2 on flight DIA_ORD_UA_38
+Successfully booked ticket from DIA to JFK for Hockey Team_2 on flight DIA_JFK_DA_46
+Successfully booked ticket from DIA to JFK for Ralphie_2 on flight DIA_JFK_DA_46
+Successfully booked ticket from DIA to LAX for Football Team_2 on flight DIA_LAX_JB_54
+Successfully booked ticket from DIA to DFW for Baseball Team_2 on flight DIA_DFW_AA_62
+Successfully booked ticket from DIA to BOS for Basketball Team_2 on flight DIA_BOS_JB_74
+Successfully booked ticket from DIA to ORD for Deion_3 on flight DIA_ORD_UA_38
+Successfully booked ticket from DIA to DFW for Elanor_3 on flight DIA_DFW_AA_62
+Successfully booked ticket from DIA to BOS for Sam_3 on flight DIA_BOS_JB_74
+Successfully booked ticket from DIA to LAX for Anastasia_3 on flight DIA_LAX_JB_54
+Successfully booked ticket from DIA to JFK for Reid_3 on flight DIA_JFK_DA_46
+Successfully booked ticket from DIA to DFW for Britney_3 on flight DIA_DFW_AA_62
+Successfully booked ticket from DIA to ORD for Hockey Team_3 on flight DIA_ORD_UA_38
+Successfully booked ticket from DIA to BOS for Ralphie_3 on flight DIA_BOS_JB_74
+Successfully booked ticket from DIA to DFW for Football Team_3 on flight DIA_DFW_AA_62
+Successfully booked ticket from DIA to JFK for Baseball Team_3 on flight DIA_JFK_DA_46
+Successfully booked ticket from DIA to JFK for Basketball Team_3 on flight DIA_JFK_DA_46
+Successfully booked ticket from DIA to JFK for Deion_4 on flight DIA_JFK_DA_46
+Successfully booked ticket from DIA to SFO for Elanor_4 on flight DIA_SFO_DA_68
+Successfully booked ticket from DIA to SFO for Sam_4 on flight DIA_SFO_DA_68
+Successfully booked ticket from DIA to ORD for Anastasia_4 on flight DIA_ORD_UA_38
+Successfully booked ticket from DIA to ORD for Reid_4 on flight DIA_ORD_UA_38
+Successfully booked ticket from DIA to DFW for Britney_4 on flight DIA_DFW_AA_62
+Successfully booked ticket from DIA to BOS for Hockey Team_4 on flight DIA_BOS_JB_74
+Successfully booked ticket from DIA to SFO for Ralphie_4 on flight DIA_SFO_DA_68
+Successfully booked ticket from DIA to BOS for Football Team_4 on flight DIA_BOS_JB_74
+Successfully booked ticket from DIA to ORD for Baseball Team_4 on flight DIA_ORD_UA_38
+Successfully booked ticket from DIA to ORD for Basketball Team_4 on flight DIA_ORD_UA_38
+Successfully booked ticket from DIA to ORD for Deion_5 on flight DIA_ORD_UA_38
+Successfully booked ticket from DIA to LAX for Elanor_5 on flight DIA_LAX_JB_54
+Successfully booked ticket from DIA to ORD for Sam_5 on flight DIA_ORD_UA_38
+Successfully booked ticket from DIA to DFW for Anastasia_5 on flight DIA_DFW_AA_62
+Successfully booked ticket from DIA to BOS for Reid_5 on flight DIA_BOS_JB_74
+Successfully booked ticket from DIA to SFO for Britney_5 on flight DIA_SFO_DA_68
+Successfully booked ticket from JFK to DIA for Hockey Team_5 on flight JFK_DIA_AA_50
+Successfully booked ticket from DIA to ORD for Ralphie_5 on flight DIA_ORD_UA_38
+Successfully booked ticket from DIA to LAX for Football Team_5 on flight DIA_LAX_JB_54
+Successfully booked ticket from DIA to LAX for Baseball Team_5 on flight DIA_LAX_JB_54
+Successfully booked ticket from DIA to JFK for Basketball Team_5 on flight DIA_JFK_DA_46
+Successfully booked ticket from DIA to JFK for Deion_6 on flight DIA_JFK_DA_46
+Successfully booked ticket from JFK to DIA for Elanor_6 on flight JFK_DIA_AA_50
+Successfully booked ticket from DIA to SFO for Sam_6 on flight DIA_SFO_DA_68
+Successfully booked ticket from DIA to BOS for Anastasia_6 on flight DIA_BOS_JB_74
+Successfully booked ticket from DIA to ORD for Reid_6 on flight DIA_ORD_UA_38
+Successfully booked ticket from DIA to DFW for Britney_6 on flight DIA_DFW_AA_62
+Successfully booked ticket from DIA to BOS for Hockey Team_6 on flight DIA_BOS_JB_74
+Successfully booked ticket from DIA to LAX for Ralphie_6 on flight DIA_LAX_JB_54
+Successfully booked ticket from DIA to LAX for Football Team_6 on flight DIA_LAX_JB_54
+Successfully booked ticket from DIA to LAX for Baseball Team_6 on flight DIA_LAX_JB_54
+Successfully booked ticket from DIA to LAX for Basketball Team_6 on flight DIA_LAX_JB_54
+Successfully booked ticket from DIA to JFK for Deion_7 on flight DIA_JFK_DA_46
+Successfully booked ticket from DIA to LAX for Elanor_7 on flight DIA_LAX_JB_54
+Successfully booked ticket from DIA to SFO for Sam_7 on flight DIA_SFO_DA_68
+Successfully booked ticket from DIA to LAX for Anastasia_7 on flight DIA_LAX_JB_54
+Successfully booked ticket from DIA to JFK for Reid_7 on flight DIA_JFK_DA_46
+Successfully booked ticket from DIA to JFK for Britney_7 on flight DIA_JFK_DA_46
+Successfully booked ticket from DIA to DFW for Hockey Team_7 on flight DIA_DFW_AA_62
+Successfully booked ticket from DIA to DFW for Ralphie_7 on flight DIA_DFW_AA_62
+Successfully booked ticket from DIA to ORD for Football Team_7 on flight DIA_ORD_UA_38
+Successfully booked ticket from DIA to ORD for Baseball Team_7 on flight DIA_ORD_UA_38
+Successfully booked ticket from DIA to SFO for Basketball Team_7 on flight DIA_SFO_DA_68
+Successfully booked ticket from DIA to DFW for Deion_8 on flight DIA_DFW_AA_62
+Successfully booked ticket from BOS to DIA for Elanor_8 on flight BOS_DIA_JB_76
+Successfully booked ticket from DIA to BOS for Sam_8 on flight DIA_BOS_JB_74
+Successfully booked ticket from DIA to DFW for Anastasia_8 on flight DIA_DFW_AA_62
+Successfully booked ticket from DIA to SFO for Reid_8 on flight DIA_SFO_DA_68
+Successfully booked ticket from DIA to DFW for Britney_8 on flight DIA_DFW_AA_62
+Successfully booked ticket from DIA to JFK for Hockey Team_8 on flight DIA_JFK_DA_46
+Successfully booked ticket from DIA to DFW for Ralphie_8 on flight DIA_DFW_AA_62
+Successfully booked ticket from DIA to DFW for Football Team_8 on flight DIA_DFW_AA_62
+Successfully booked ticket from DIA to SFO for Baseball Team_8 on flight DIA_SFO_DA_68
+Successfully booked ticket from LAX to DIA for Basketball Team_8 on flight LAX_DIA_JB_58
+Successfully booked ticket from DIA to LAX for Deion_9 on flight DIA_LAX_JB_54
+Successfully booked ticket from DIA to ORD for Elanor_9 on flight DIA_ORD_UA_38
+Successfully booked ticket from DIA to BOS for Sam_9 on flight DIA_BOS_JB_74
+Successfully booked ticket from DIA to DFW for Anastasia_9 on flight DIA_DFW_AA_62
+Successfully booked ticket from DIA to LAX for Reid_9 on flight DIA_LAX_JB_54
+Successfully booked ticket from DIA to ORD for Britney_9 on flight DIA_ORD_UA_38
+Successfully booked ticket from DIA to JFK for Hockey Team_9 on flight DIA_JFK_DA_46
+Successfully booked ticket from DIA to DFW for Ralphie_9 on flight DIA_DFW_AA_62
+Successfully booked ticket from DIA to JFK for Football Team_9 on flight DIA_JFK_DA_46
+Successfully booked ticket from DIA to LAX for Baseball Team_9 on flight DIA_LAX_JB_54
+Successfully booked ticket from DIA to DFW for Basketball Team_9 on flight DIA_DFW_AA_62
+Successfully booked ticket from DIA to JFK for Deion_10 on flight DIA_JFK_DA_46
 ---------- Finished Booking [Tuesday] ----------
 ===== Executing Tuesday =====
-Flight ORD_DIA_36 tookoff from ORD and landed in DIA with 18 passengers onboard.
-Flight JFK_DIA_43 tookoff from JFK and landed in DIA with 11 passengers onboard.
-Flight LAX_DIA_50 tookoff from LAX and landed in DIA with 20 passengers onboard.
-Flight LAX_DIA_51 tookoff from LAX and landed in DIA with 5 passengers onboard.
-Flight DFW_DIA_55 tookoff from DFW and landed in DIA with 16 passengers onboard.
-Flight SFO_DIA_59 tookoff from SFO and landed in DIA with 10 passengers onboard.
-Flight BOS_DIA_62 tookoff from BOS and landed in DIA with 20 passengers onboard.
+Flight DIA_ORD_UA_38 was delayed by the Airline
+Flight DIA_ORD_UA_38 was delayed due to poor weather
+Flight DIA_ORD_UA_38 was delayed and canceled.
+Flight ORD_DIA_AA_42 tookoff from ORD and landed in DIA with 1 passengers onboard.
+Flight DIA_JFK_DA_46 was delayed due to poor weather
+Flight DIA_JFK_DA_46 tookoff from DIA and landed in JFK with 17 passengers onboard.
+Flight JFK_DIA_AA_50 tookoff from JFK and landed in DIA with 3 passengers onboard.
+Flight DIA_LAX_JB_54 tookoff from DIA and landed in LAX with 18 passengers onboard.
+Flight LAX_DIA_JB_58 tookoff from LAX and landed in DIA with 2 passengers onboard.
+Flight DIA_DFW_AA_62 was delayed due to poor weather
+Flight DIA_DFW_AA_62 tookoff from DIA and landed in DFW with 17 passengers onboard.
+Flight DIA_SFO_DA_68 tookoff from DIA and landed in SFO with 11 passengers onboard.
+Flight DIA_BOS_JB_74 tookoff from DIA and landed in BOS with 11 passengers onboard.
+Flight BOS_DIA_JB_76 was delayed due to poor weather
+Flight BOS_DIA_JB_76 tookoff from BOS and landed in DIA with 3 passengers onboard.
 ===== Finished Executing Tuesday =====
+
+
+Locations of travelers.
+DIA 26 ['Deion_1', 'Britney_1', 'Hockey Team_1', 'Football Team_1', 'Deion_2', 'Sam_2', 'Anastasia_2', 'Britney_2', 'Deion_3', 'Hockey Team_3', 'Anastasia_4', 'Reid_4', 'Baseball Team_4', 'Basketball Team_4', 'Deion_5', 'Sam_5', 'Hockey Team_5', 'Ralphie_5', 'Elanor_6', 'Reid_6', 'Football Team_7', 'Baseball Team_7', 'Elanor_8', 'Basketball Team_8', 'Elanor_9', 'Britney_9']
+ORD 0 []
+JFK 17 ['Sam_1', 'Elanor_2', 'Hockey Team_2', 'Ralphie_2', 'Reid_3', 'Baseball Team_3', 'Basketball Team_3', 'Deion_4', 'Basketball Team_5', 'Deion_6', 'Deion_7', 'Reid_7', 'Britney_7', 'Hockey Team_8', 'Hockey Team_9', 'Football Team_9', 'Deion_10']
+LAX 18 ['Elanor_1', 'Anastasia_1', 'Baseball Team_1', 'Reid_2', 'Football Team_2', 'Anastasia_3', 'Elanor_5', 'Football Team_5', 'Baseball Team_5', 'Ralphie_6', 'Football Team_6', 'Baseball Team_6', 'Basketball Team_6', 'Elanor_7', 'Anastasia_7', 'Deion_9', 'Reid_9', 'Baseball Team_9']
+DFW 17 ['Baseball Team_2', 'Elanor_3', 'Britney_3', 'Football Team_3', 'Britney_4', 'Anastasia_5', 'Britney_6', 'Hockey Team_7', 'Ralphie_7', 'Deion_8', 'Anastasia_8', 'Britney_8', 'Ralphie_8', 'Football Team_8', 'Anastasia_9', 'Ralphie_9', 'Basketball Team_9']
+SFO 11 ['Reid_1', 'Basketball Team_1', 'Elanor_4', 'Sam_4', 'Ralphie_4', 'Britney_5', 'Sam_6', 'Sam_7', 'Basketball Team_7', 'Reid_8', 'Baseball Team_8']
+BOS 11 ['Ralphie_1', 'Basketball Team_2', 'Sam_3', 'Ralphie_3', 'Hockey Team_4', 'Football Team_4', 'Reid_5', 'Anastasia_6', 'Hockey Team_6', 'Sam_8', 'Sam_9']
+
+
+***** Wednesday *****
+Scheduling flights....
+Scheduled flight DIA_ORD_AA_77 on plane AA-16 on 1-Wednesday.
+Scheduled flight DIA_ORD_UA_78 on plane UA-32 on 1-Wednesday.
+Scheduled flight DIA_ORD_UA_79 on plane UA-33 on 1-Wednesday.
+Scheduled flight ORD_DIA_AA_80 on plane AA-40 on 1-Wednesday.
+Scheduled flight ORD_DIA_AA_81 on plane AA-39 on 1-Wednesday.
+Scheduled flight ORD_DIA_AA_82 on plane AA-8 on 1-Wednesday.
+Scheduled flight ORD_DIA_UA_83 on plane UA-7 on 1-Wednesday.
+Scheduled flight DIA_JFK_DA_84 on plane DA-48 on 1-Wednesday.
+Scheduled flight DIA_JFK_AA_85 on plane AA-1 on 1-Wednesday.
+Scheduled flight DIA_JFK_AA_86 on plane AA-4 on 1-Wednesday.
+Scheduled flight JFK_DIA_DA_87 on plane DA-38 on 1-Wednesday.
+Scheduled flight JFK_DIA_DA_88 on plane DA-41 on 1-Wednesday.
+Scheduled flight JFK_DIA_DA_89 on plane DA-14 on 1-Wednesday.
+Scheduled flight JFK_DIA_DA_90 on plane DA-9 on 1-Wednesday.
+Scheduled flight DIA_LAX_JB_91 on plane JB-37 on 1-Wednesday.
+Scheduled flight DIA_LAX_AA_92 on plane AA-12 on 1-Wednesday.
+Scheduled flight DIA_LAX_JB_93 on plane JB-24 on 1-Wednesday.
+Scheduled flight LAX_DIA_UA_94 on plane UA-23 on 1-Wednesday.
+Scheduled flight LAX_DIA_JB_95 on plane JB-19 on 1-Wednesday.
+Scheduled flight LAX_DIA_UA_96 on plane UA-49 on 1-Wednesday.
+Scheduled flight LAX_DIA_UA_97 on plane UA-50 on 1-Wednesday.
+Scheduled flight DIA_DFW_UA_98 on plane UA-5 on 1-Wednesday.
+Scheduled flight DIA_DFW_UA_99 on plane UA-34 on 1-Wednesday.
+Scheduled flight DFW_DIA_UA_100 on plane UA-29 on 1-Wednesday.
+Scheduled flight DFW_DIA_UA_101 on plane UA-30 on 1-Wednesday.
+Scheduled flight DFW_DIA_AA_102 on plane AA-18 on 1-Wednesday.
+Scheduled flight DIA_SFO_UA_103 on plane UA-26 on 1-Wednesday.
+Scheduled flight DIA_SFO_AA_104 on plane AA-27 on 1-Wednesday.
+Scheduled flight SFO_DIA_UA_105 on plane UA-51 on 1-Wednesday.
+Scheduled flight SFO_DIA_DA_106 on plane DA-45 on 1-Wednesday.
+Scheduled flight SFO_DIA_AA_107 on plane AA-46 on 1-Wednesday.
+Scheduled flight DIA_BOS_DA_108 on plane DA-10 on 1-Wednesday.
+Scheduled flight BOS_DIA_JB_109 on plane JB-47 on 1-Wednesday.
+Scheduled flight BOS_DIA_DA_110 on plane DA-52 on 1-Wednesday.
+All flights scheduled for Wednesday, week 1
 ---------- Booking [Wednesday] ----------
-Successfully booked ticket from DIA to BOS for Deion_1 on flight DIA_BOS_97
-Successfully booked ticket from DIA to BOS for Elanor_1 on flight DIA_BOS_97
-Successfully booked ticket from DIA to ORD for Sam_1 on flight DIA_ORD_63
-Successfully booked ticket from DIA to SFO for Anastasia_1 on flight DIA_SFO_92
-Successfully booked ticket from DIA to DFW for Reid_1 on flight DIA_DFW_87
-Successfully booked ticket from DIA to BOS for Britney_1 on flight DIA_BOS_97
-Successfully booked ticket from DIA to LAX for Hockey Team_1 on flight DIA_LAX_79
-Successfully booked ticket from DIA to ORD for Ralphie_1 on flight DIA_ORD_63
-Successfully booked ticket from DIA to ORD for Football Team_1 on flight DIA_ORD_63
-Successfully booked ticket from DIA to ORD for Baseball Team_1 on flight DIA_ORD_63
-Successfully booked ticket from DIA to LAX for Basketball Team_1 on flight DIA_LAX_79
-Successfully booked ticket from DIA to JFK for Deion_2 on flight DIA_JFK_71
-Successfully booked ticket from DIA to JFK for Elanor_2 on flight DIA_JFK_71
-Successfully booked ticket from DIA to ORD for Sam_2 on flight DIA_ORD_63
-Successfully booked ticket from DIA to LAX for Anastasia_2 on flight DIA_LAX_79
-Successfully booked ticket from DIA to DFW for Reid_2 on flight DIA_DFW_87
-Successfully booked ticket from DIA to BOS for Britney_2 on flight DIA_BOS_97
-Successfully booked ticket from DIA to SFO for Hockey Team_2 on flight DIA_SFO_92
-Successfully booked ticket from DIA to SFO for Ralphie_2 on flight DIA_SFO_92
-Successfully booked ticket from DIA to DFW for Football Team_2 on flight DIA_DFW_87
-Successfully booked ticket from DIA to JFK for Baseball Team_2 on flight DIA_JFK_71
-Successfully booked ticket from DIA to LAX for Basketball Team_2 on flight DIA_LAX_79
-Successfully booked ticket from DIA to BOS for Deion_3 on flight DIA_BOS_97
-Successfully booked ticket from DIA to LAX for Elanor_3 on flight DIA_LAX_79
-Successfully booked ticket from DIA to SFO for Sam_3 on flight DIA_SFO_92
-Successfully booked ticket from DIA to BOS for Anastasia_3 on flight DIA_BOS_97
-Successfully booked ticket from DIA to LAX for Reid_3 on flight DIA_LAX_79
-Successfully booked ticket from DIA to BOS for Britney_3 on flight DIA_BOS_97
-Successfully booked ticket from DIA to ORD for Hockey Team_3 on flight DIA_ORD_63
-Successfully booked ticket from DIA to JFK for Ralphie_3 on flight DIA_JFK_71
-Successfully booked ticket from DIA to SFO for Football Team_3 on flight DIA_SFO_92
-Successfully booked ticket from DIA to JFK for Baseball Team_3 on flight DIA_JFK_71
-Successfully booked ticket from DIA to LAX for Basketball Team_3 on flight DIA_LAX_79
-Successfully booked ticket from DIA to LAX for Deion_4 on flight DIA_LAX_79
-Successfully booked ticket from DIA to ORD for Elanor_4 on flight DIA_ORD_63
-Successfully booked ticket from DIA to BOS for Sam_4 on flight DIA_BOS_97
-Successfully booked ticket from DIA to JFK for Anastasia_4 on flight DIA_JFK_71
-Successfully booked ticket from DIA to JFK for Reid_4 on flight DIA_JFK_71
-Successfully booked ticket from DIA to JFK for Britney_4 on flight DIA_JFK_71
-Successfully booked ticket from DIA to JFK for Hockey Team_4 on flight DIA_JFK_71
-Successfully booked ticket from DIA to SFO for Ralphie_4 on flight DIA_SFO_92
-Successfully booked ticket from DIA to LAX for Football Team_4 on flight DIA_LAX_79
-Successfully booked ticket from DIA to BOS for Baseball Team_4 on flight DIA_BOS_97
-Successfully booked ticket from DIA to DFW for Basketball Team_4 on flight DIA_DFW_87
-Successfully booked ticket from DIA to BOS for Deion_5 on flight DIA_BOS_97
-Successfully booked ticket from DIA to ORD for Elanor_5 on flight DIA_ORD_63
-Successfully booked ticket from DIA to SFO for Sam_5 on flight DIA_SFO_92
-Successfully booked ticket from DIA to JFK for Anastasia_5 on flight DIA_JFK_71
-Successfully booked ticket from DIA to LAX for Reid_5 on flight DIA_LAX_79
-Successfully booked ticket from DIA to LAX for Britney_5 on flight DIA_LAX_79
-Successfully booked ticket from DIA to DFW for Hockey Team_5 on flight DIA_DFW_87
-Successfully booked ticket from DIA to SFO for Ralphie_5 on flight DIA_SFO_92
-Successfully booked ticket from DIA to ORD for Football Team_5 on flight DIA_ORD_63
-Successfully booked ticket from DIA to LAX for Baseball Team_5 on flight DIA_LAX_79
-Successfully booked ticket from DIA to SFO for Basketball Team_5 on flight DIA_SFO_92
-Successfully booked ticket from DIA to BOS for Deion_6 on flight DIA_BOS_97
-Successfully booked ticket from DIA to LAX for Elanor_6 on flight DIA_LAX_79
-Successfully booked ticket from DIA to LAX for Sam_6 on flight DIA_LAX_79
-Successfully booked ticket from DIA to LAX for Anastasia_6 on flight DIA_LAX_79
-Successfully booked ticket from DIA to BOS for Reid_6 on flight DIA_BOS_97
-Successfully booked ticket from DIA to BOS for Britney_6 on flight DIA_BOS_97
-Successfully booked ticket from DIA to SFO for Hockey Team_6 on flight DIA_SFO_92
-Successfully booked ticket from DIA to LAX for Ralphie_6 on flight DIA_LAX_79
-Successfully booked ticket from DIA to ORD for Football Team_6 on flight DIA_ORD_63
-Successfully booked ticket from DIA to JFK for Baseball Team_6 on flight DIA_JFK_71
-Successfully booked ticket from DIA to JFK for Basketball Team_6 on flight DIA_JFK_71
-Successfully booked ticket from DIA to ORD for Deion_7 on flight DIA_ORD_63
-Successfully booked ticket from DIA to LAX for Elanor_7 on flight DIA_LAX_79
-Successfully booked ticket from DIA to LAX for Sam_7 on flight DIA_LAX_79
-Successfully booked ticket from DIA to BOS for Anastasia_7 on flight DIA_BOS_97
-Successfully booked ticket from DIA to LAX for Reid_7 on flight DIA_LAX_79
-Successfully booked ticket from DIA to DFW for Britney_7 on flight DIA_DFW_87
-Successfully booked ticket from DIA to ORD for Hockey Team_7 on flight DIA_ORD_63
-Successfully booked ticket from DIA to JFK for Ralphie_7 on flight DIA_JFK_71
-Successfully booked ticket from DIA to JFK for Football Team_7 on flight DIA_JFK_71
-Successfully booked ticket from DIA to DFW for Baseball Team_7 on flight DIA_DFW_87
-Successfully booked ticket from DIA to JFK for Basketball Team_7 on flight DIA_JFK_71
-Successfully booked ticket from DIA to LAX for Deion_8 on flight DIA_LAX_79
-Successfully booked ticket from DIA to LAX for Elanor_8 on flight DIA_LAX_80
-Successfully booked ticket from DIA to SFO for Sam_8 on flight DIA_SFO_92
-Successfully booked ticket from DIA to DFW for Anastasia_8 on flight DIA_DFW_87
-Successfully booked ticket from DIA to SFO for Reid_8 on flight DIA_SFO_92
-Successfully booked ticket from DIA to DFW for Britney_8 on flight DIA_DFW_87
-Successfully booked ticket from DIA to LAX for Hockey Team_8 on flight DIA_LAX_80
-Successfully booked ticket from DIA to LAX for Ralphie_8 on flight DIA_LAX_80
-Successfully booked ticket from DIA to ORD for Football Team_8 on flight DIA_ORD_63
-Successfully booked ticket from DIA to SFO for Baseball Team_8 on flight DIA_SFO_92
-Successfully booked ticket from DIA to DFW for Basketball Team_8 on flight DIA_DFW_87
-Successfully booked ticket from DIA to LAX for Deion_9 on flight DIA_LAX_80
-Successfully booked ticket from DIA to JFK for Elanor_9 on flight DIA_JFK_71
-Successfully booked ticket from DIA to LAX for Sam_9 on flight DIA_LAX_80
-Successfully booked ticket from DIA to LAX for Anastasia_9 on flight DIA_LAX_80
-Successfully booked ticket from DIA to SFO for Reid_9 on flight DIA_SFO_92
-Successfully booked ticket from DIA to ORD for Britney_9 on flight DIA_ORD_63
-Successfully booked ticket from DIA to BOS for Hockey Team_9 on flight DIA_BOS_97
-Successfully booked ticket from DIA to BOS for Ralphie_9 on flight DIA_BOS_97
-Successfully booked ticket from DIA to SFO for Football Team_9 on flight DIA_SFO_92
-Successfully booked ticket from DIA to ORD for Baseball Team_9 on flight DIA_ORD_63
-Successfully booked ticket from DIA to DFW for Basketball Team_9 on flight DIA_DFW_87
-Successfully booked ticket from DIA to DFW for Deion_10 on flight DIA_DFW_87
+Successfully booked ticket from DIA to JFK for Deion_1 on flight DIA_JFK_DA_84
+Successfully booked ticket from LAX to DIA for Elanor_1 on flight LAX_DIA_UA_94
+Successfully booked ticket from JFK to DIA for Sam_1 on flight JFK_DIA_DA_87
+Successfully booked ticket from LAX to DIA for Anastasia_1 on flight LAX_DIA_UA_94
+Successfully booked ticket from SFO to DIA for Reid_1 on flight SFO_DIA_UA_105
+Successfully booked ticket from DIA to JFK for Britney_1 on flight DIA_JFK_DA_84
+Successfully booked ticket from DIA to SFO for Hockey Team_1 on flight DIA_SFO_UA_103
+Successfully booked ticket from BOS to DIA for Ralphie_1 on flight BOS_DIA_JB_109
+Successfully booked ticket from DIA to DFW for Football Team_1 on flight DIA_DFW_UA_98
+Successfully booked ticket from LAX to DIA for Baseball Team_1 on flight LAX_DIA_UA_94
+Successfully booked ticket from SFO to DIA for Basketball Team_1 on flight SFO_DIA_UA_105
+Successfully booked ticket from DIA to BOS for Deion_2 on flight DIA_BOS_DA_108
+Successfully booked ticket from JFK to DIA for Elanor_2 on flight JFK_DIA_DA_87
+Successfully booked ticket from DIA to BOS for Sam_2 on flight DIA_BOS_DA_108
+Successfully booked ticket from DIA to BOS for Anastasia_2 on flight DIA_BOS_DA_108
+Successfully booked ticket from LAX to DIA for Reid_2 on flight LAX_DIA_UA_94
+Successfully booked ticket from DIA to LAX for Britney_2 on flight DIA_LAX_JB_91
+Successfully booked ticket from JFK to DIA for Hockey Team_2 on flight JFK_DIA_DA_87
+Successfully booked ticket from JFK to DIA for Ralphie_2 on flight JFK_DIA_DA_87
+Successfully booked ticket from LAX to DIA for Football Team_2 on flight LAX_DIA_UA_94
+Successfully booked ticket from DFW to DIA for Baseball Team_2 on flight DFW_DIA_UA_100
+Successfully booked ticket from BOS to DIA for Basketball Team_2 on flight BOS_DIA_JB_109
+Successfully booked ticket from DIA to BOS for Deion_3 on flight DIA_BOS_DA_108
+Successfully booked ticket from DFW to DIA for Elanor_3 on flight DFW_DIA_UA_100
+Successfully booked ticket from BOS to DIA for Sam_3 on flight BOS_DIA_JB_109
+Successfully booked ticket from LAX to DIA for Anastasia_3 on flight LAX_DIA_UA_94
+Successfully booked ticket from JFK to DIA for Reid_3 on flight JFK_DIA_DA_87
+Successfully booked ticket from DFW to DIA for Britney_3 on flight DFW_DIA_UA_100
+Successfully booked ticket from DIA to DFW for Hockey Team_3 on flight DIA_DFW_UA_98
+Successfully booked ticket from BOS to DIA for Ralphie_3 on flight BOS_DIA_JB_109
+Successfully booked ticket from DFW to DIA for Football Team_3 on flight DFW_DIA_UA_100
+Successfully booked ticket from JFK to DIA for Baseball Team_3 on flight JFK_DIA_DA_87
+Successfully booked ticket from JFK to DIA for Basketball Team_3 on flight JFK_DIA_DA_87
+Successfully booked ticket from JFK to DIA for Deion_4 on flight JFK_DIA_DA_87
+Successfully booked ticket from SFO to DIA for Elanor_4 on flight SFO_DIA_UA_105
+Successfully booked ticket from SFO to DIA for Sam_4 on flight SFO_DIA_UA_105
+Successfully booked ticket from DIA to SFO for Anastasia_4 on flight DIA_SFO_UA_103
+Successfully booked ticket from DIA to SFO for Reid_4 on flight DIA_SFO_UA_103
+Successfully booked ticket from DFW to DIA for Britney_4 on flight DFW_DIA_UA_100
+Successfully booked ticket from BOS to DIA for Hockey Team_4 on flight BOS_DIA_JB_109
+Successfully booked ticket from SFO to DIA for Ralphie_4 on flight SFO_DIA_UA_105
+Successfully booked ticket from BOS to DIA for Football Team_4 on flight BOS_DIA_JB_109
+Successfully booked ticket from DIA to ORD for Baseball Team_4 on flight DIA_ORD_AA_77
+Successfully booked ticket from DIA to LAX for Basketball Team_4 on flight DIA_LAX_JB_91
+Successfully booked ticket from DIA to DFW for Deion_5 on flight DIA_DFW_UA_98
+Successfully booked ticket from LAX to DIA for Elanor_5 on flight LAX_DIA_UA_94
+Successfully booked ticket from DIA to SFO for Sam_5 on flight DIA_SFO_UA_103
+Successfully booked ticket from DFW to DIA for Anastasia_5 on flight DFW_DIA_UA_100
+Successfully booked ticket from BOS to DIA for Reid_5 on flight BOS_DIA_JB_109
+Successfully booked ticket from SFO to DIA for Britney_5 on flight SFO_DIA_UA_105
+Successfully booked ticket from DIA to SFO for Hockey Team_5 on flight DIA_SFO_UA_103
+Successfully booked ticket from DIA to JFK for Ralphie_5 on flight DIA_JFK_DA_84
+Successfully booked ticket from LAX to DIA for Football Team_5 on flight LAX_DIA_UA_94
+Successfully booked ticket from LAX to DIA for Baseball Team_5 on flight LAX_DIA_UA_94
+Successfully booked ticket from JFK to DIA for Basketball Team_5 on flight JFK_DIA_DA_87
+Successfully booked ticket from JFK to DIA for Deion_6 on flight JFK_DIA_DA_87
+Successfully booked ticket from DIA to LAX for Elanor_6 on flight DIA_LAX_JB_91
+Successfully booked ticket from SFO to DIA for Sam_6 on flight SFO_DIA_UA_105
+Successfully booked ticket from BOS to DIA for Anastasia_6 on flight BOS_DIA_JB_109
+Successfully booked ticket from DIA to SFO for Reid_6 on flight DIA_SFO_UA_103
+Successfully booked ticket from DFW to DIA for Britney_6 on flight DFW_DIA_UA_100
+Successfully booked ticket from BOS to DIA for Hockey Team_6 on flight BOS_DIA_JB_109
+Successfully booked ticket from LAX to DIA for Ralphie_6 on flight LAX_DIA_UA_94
+Successfully booked ticket from LAX to DIA for Football Team_6 on flight LAX_DIA_UA_94
+Successfully booked ticket from LAX to DIA for Baseball Team_6 on flight LAX_DIA_UA_94
+Successfully booked ticket from LAX to DIA for Basketball Team_6 on flight LAX_DIA_UA_94
+Successfully booked ticket from JFK to DIA for Deion_7 on flight JFK_DIA_DA_87
+Successfully booked ticket from LAX to DIA for Elanor_7 on flight LAX_DIA_UA_94
+Successfully booked ticket from SFO to DIA for Sam_7 on flight SFO_DIA_UA_105
+Successfully booked ticket from LAX to DIA for Anastasia_7 on flight LAX_DIA_UA_94
+Successfully booked ticket from JFK to DIA for Reid_7 on flight JFK_DIA_DA_87
+Successfully booked ticket from JFK to DIA for Britney_7 on flight JFK_DIA_DA_87
+Successfully booked ticket from DFW to DIA for Hockey Team_7 on flight DFW_DIA_UA_100
+Successfully booked ticket from DFW to DIA for Ralphie_7 on flight DFW_DIA_UA_100
+Successfully booked ticket from DIA to BOS for Football Team_7 on flight DIA_BOS_DA_108
+Successfully booked ticket from DIA to ORD for Baseball Team_7 on flight DIA_ORD_AA_77
+Successfully booked ticket from SFO to DIA for Basketball Team_7 on flight SFO_DIA_UA_105
+Successfully booked ticket from DFW to DIA for Deion_8 on flight DFW_DIA_UA_100
+Successfully booked ticket from DIA to BOS for Elanor_8 on flight DIA_BOS_DA_108
+Successfully booked ticket from BOS to DIA for Sam_8 on flight BOS_DIA_JB_109
+Successfully booked ticket from DFW to DIA for Anastasia_8 on flight DFW_DIA_UA_100
+Successfully booked ticket from SFO to DIA for Reid_8 on flight SFO_DIA_UA_105
+Successfully booked ticket from DFW to DIA for Britney_8 on flight DFW_DIA_UA_100
+Successfully booked ticket from JFK to DIA for Hockey Team_8 on flight JFK_DIA_DA_87
+Successfully booked ticket from DFW to DIA for Ralphie_8 on flight DFW_DIA_UA_100
+Successfully booked ticket from DFW to DIA for Football Team_8 on flight DFW_DIA_UA_100
+Successfully booked ticket from SFO to DIA for Baseball Team_8 on flight SFO_DIA_UA_105
+Successfully booked ticket from DIA to LAX for Basketball Team_8 on flight DIA_LAX_JB_91
+Successfully booked ticket from LAX to DIA for Deion_9 on flight LAX_DIA_UA_94
+Successfully booked ticket from DIA to SFO for Elanor_9 on flight DIA_SFO_UA_103
+Successfully booked ticket from BOS to DIA for Sam_9 on flight BOS_DIA_JB_109
+Successfully booked ticket from DFW to DIA for Anastasia_9 on flight DFW_DIA_UA_100
+Successfully booked ticket from LAX to DIA for Reid_9 on flight LAX_DIA_UA_94
+Successfully booked ticket from DIA to DFW for Britney_9 on flight DIA_DFW_UA_98
+Successfully booked ticket from JFK to DIA for Hockey Team_9 on flight JFK_DIA_DA_87
+Successfully booked ticket from DFW to DIA for Ralphie_9 on flight DFW_DIA_UA_100
+Successfully booked ticket from JFK to DIA for Football Team_9 on flight JFK_DIA_DA_87
+Successfully booked ticket from LAX to DIA for Baseball Team_9 on flight LAX_DIA_UA_94
+Successfully booked ticket from DFW to DIA for Basketball Team_9 on flight DFW_DIA_UA_100
+Successfully booked ticket from JFK to DIA for Deion_10 on flight JFK_DIA_DA_87
 ---------- Finished Booking [Wednesday] ----------
 ===== Executing Wednesday =====
-Flight DIA_ORD_63 tookoff from DIA and landed in ORD with 15 passengers onboard.
-Flight DIA_JFK_71 tookoff from DIA and landed in JFK with 16 passengers onboard.
-Flight DIA_LAX_79 tookoff from DIA and landed in LAX with 20 passengers onboard.
-Flight DIA_LAX_80 tookoff from DIA and landed in LAX with 6 passengers onboard.
-Flight DIA_DFW_87 tookoff from DIA and landed in DFW with 12 passengers onboard.
-Flight DIA_SFO_92 tookoff from DIA and landed in SFO with 15 passengers onboard.
-Flight DIA_BOS_97 tookoff from DIA and landed in BOS with 16 passengers onboard.
+Flight DIA_ORD_AA_77 was delayed by the Airline
+Flight DIA_ORD_AA_77 was delayed due to poor weather
+Flight DIA_ORD_AA_77 was delayed and canceled.
+Flight DIA_JFK_DA_84 was delayed due to poor weather
+Flight DIA_JFK_DA_84 tookoff from DIA and landed in JFK with 3 passengers onboard.
+Flight JFK_DIA_DA_87 tookoff from JFK and landed in DIA with 17 passengers onboard.
+Flight DIA_LAX_JB_91 was delayed due to poor weather
+Flight DIA_LAX_JB_91 tookoff from DIA and landed in LAX with 4 passengers onboard.
+Flight LAX_DIA_UA_94 tookoff from LAX and landed in DIA with 18 passengers onboard.
+Flight DIA_DFW_UA_98 tookoff from DIA and landed in DFW with 4 passengers onboard.
+Flight DFW_DIA_UA_100 tookoff from DFW and landed in DIA with 17 passengers onboard.
+Flight DIA_SFO_UA_103 tookoff from DIA and landed in SFO with 7 passengers onboard.
+Flight SFO_DIA_UA_105 tookoff from SFO and landed in DIA with 11 passengers onboard.
+Flight DIA_BOS_DA_108 was delayed by mechanical issues with the plane
+Flight DIA_BOS_DA_108 tookoff from DIA and landed in BOS with 6 passengers onboard.
+Flight BOS_DIA_JB_109 tookoff from BOS and landed in DIA with 11 passengers onboard.
 ===== Finished Executing Wednesday =====
+
+
+Locations of travelers.
+DIA 76 ['Elanor_1', 'Sam_1', 'Anastasia_1', 'Reid_1', 'Ralphie_1', 'Baseball Team_1', 'Basketball Team_1', 'Elanor_2', 'Reid_2', 'Hockey Team_2', 'Ralphie_2', 'Football Team_2', 'Baseball Team_2', 'Basketball Team_2', 'Elanor_3', 'Sam_3', 'Anastasia_3', 'Reid_3', 'Britney_3', 'Ralphie_3', 'Football Team_3', 'Baseball Team_3', 'Basketball Team_3', 'Deion_4', 'Elanor_4', 'Sam_4', 'Britney_4', 'Hockey Team_4', 'Ralphie_4', 'Football Team_4', 'Baseball Team_4', 'Elanor_5', 'Anastasia_5', 'Reid_5', 'Britney_5', 'Football Team_5', 'Baseball Team_5', 'Basketball Team_5', 'Deion_6', 'Sam_6', 'Anastasia_6', 'Britney_6', 'Hockey Team_6', 'Ralphie_6', 'Football Team_6', 'Baseball Team_6', 'Basketball Team_6', 'Deion_7', 'Elanor_7', 'Sam_7', 'Anastasia_7', 'Reid_7', 'Britney_7', 'Hockey Team_7', 'Ralphie_7', 'Baseball Team_7', 'Basketball Team_7', 'Deion_8', 'Sam_8', 'Anastasia_8', 'Reid_8', 'Britney_8', 'Hockey Team_8', 'Ralphie_8', 'Football Team_8', 'Baseball Team_8', 'Deion_9', 'Sam_9', 'Anastasia_9', 'Reid_9', 'Hockey Team_9', 'Ralphie_9', 'Football Team_9', 'Baseball Team_9', 'Basketball Team_9', 'Deion_10']
+ORD 0 []
+JFK 3 ['Deion_1', 'Britney_1', 'Ralphie_5']
+LAX 4 ['Britney_2', 'Basketball Team_4', 'Elanor_6', 'Basketball Team_8']
+DFW 4 ['Football Team_1', 'Hockey Team_3', 'Deion_5', 'Britney_9']
+SFO 7 ['Hockey Team_1', 'Anastasia_4', 'Reid_4', 'Sam_5', 'Hockey Team_5', 'Reid_6', 'Elanor_9']
+BOS 6 ['Deion_2', 'Sam_2', 'Anastasia_2', 'Deion_3', 'Football Team_7', 'Elanor_8']
+
+
+***** Thursday *****
+Scheduling flights....
+Scheduled flight DIA_ORD_AA_111 on plane AA-27 on 1-Thursday.
+Scheduled flight DIA_ORD_UA_112 on plane UA-51 on 1-Thursday.
+Scheduled flight DIA_ORD_AA_113 on plane AA-12 on 1-Thursday.
+Scheduled flight DIA_ORD_AA_114 on plane AA-4 on 1-Thursday.
+Scheduled flight ORD_DIA_AA_115 on plane AA-8 on 1-Thursday.
+Scheduled flight ORD_DIA_UA_116 on plane UA-7 on 1-Thursday.
+Scheduled flight ORD_DIA_UA_117 on plane UA-6 on 1-Thursday.
+Scheduled flight ORD_DIA_AA_118 on plane AA-39 on 1-Thursday.
+Scheduled flight DIA_JFK_DA_119 on plane DA-38 on 1-Thursday.
+Scheduled flight DIA_JFK_DA_120 on plane DA-11 on 1-Thursday.
+Scheduled flight DIA_JFK_DA_121 on plane DA-31 on 1-Thursday.
+Scheduled flight DIA_JFK_AA_122 on plane AA-1 on 1-Thursday.
+Scheduled flight JFK_DIA_AA_123 on plane AA-15 on 1-Thursday.
+Scheduled flight JFK_DIA_AA_124 on plane AA-53 on 1-Thursday.
+Scheduled flight JFK_DIA_DA_125 on plane DA-48 on 1-Thursday.
+Scheduled flight JFK_DIA_AA_126 on plane AA-54 on 1-Thursday.
+Scheduled flight DIA_LAX_AA_127 on plane AA-16 on 1-Thursday.
+Scheduled flight DIA_LAX_UA_128 on plane UA-29 on 1-Thursday.
+Scheduled flight DIA_LAX_UA_129 on plane UA-23 on 1-Thursday.
+Scheduled flight DIA_LAX_UA_130 on plane UA-34 on 1-Thursday.
+Scheduled flight LAX_DIA_UA_131 on plane UA-50 on 1-Thursday.
+Scheduled flight LAX_DIA_UA_132 on plane UA-49 on 1-Thursday.
+Scheduled flight LAX_DIA_JB_133 on plane JB-37 on 1-Thursday.
+Scheduled flight LAX_DIA_UA_134 on plane UA-55 on 1-Thursday.
+Scheduled flight DIA_DFW_UA_135 on plane UA-5 on 1-Thursday.
+Scheduled flight DIA_DFW_AA_136 on plane AA-13 on 1-Thursday.
+Scheduled flight DFW_DIA_AA_137 on plane AA-18 on 1-Thursday.
+Scheduled flight DFW_DIA_UA_138 on plane UA-5 on 1-Thursday.
+Scheduled flight DFW_DIA_AA_139 on plane AA-44 on 1-Thursday.
+Scheduled flight DIA_SFO_AA_140 on plane AA-21 on 1-Thursday.
+Scheduled flight DIA_SFO_AA_141 on plane AA-28 on 1-Thursday.
+Scheduled flight SFO_DIA_AA_142 on plane AA-46 on 1-Thursday.
+Scheduled flight SFO_DIA_DA_143 on plane DA-45 on 1-Thursday.
+Scheduled flight DIA_BOS_JB_144 on plane JB-47 on 1-Thursday.
+Scheduled flight BOS_DIA_JB_145 on plane JB-47 on 1-Thursday.
+All flights scheduled for Thursday, week 1
 ---------- Booking [Thursday] ----------
-Successfully booked ticket from BOS to DIA for Deion_1 on flight BOS_DIA_136
-Successfully booked ticket from BOS to DIA for Elanor_1 on flight BOS_DIA_136
-Successfully booked ticket from ORD to DIA for Sam_1 on flight ORD_DIA_103
-Successfully booked ticket from SFO to DIA for Anastasia_1 on flight SFO_DIA_132
-Successfully booked ticket from DFW to DIA for Reid_1 on flight DFW_DIA_126
-Successfully booked ticket from BOS to DIA for Britney_1 on flight BOS_DIA_136
-Successfully booked ticket from LAX to DIA for Hockey Team_1 on flight LAX_DIA_119
-Successfully booked ticket from ORD to DIA for Ralphie_1 on flight ORD_DIA_103
-Successfully booked ticket from ORD to DIA for Football Team_1 on flight ORD_DIA_103
-Successfully booked ticket from ORD to DIA for Baseball Team_1 on flight ORD_DIA_103
-Successfully booked ticket from LAX to DIA for Basketball Team_1 on flight LAX_DIA_119
-Successfully booked ticket from JFK to DIA for Deion_2 on flight JFK_DIA_111
-Successfully booked ticket from JFK to DIA for Elanor_2 on flight JFK_DIA_111
-Successfully booked ticket from ORD to DIA for Sam_2 on flight ORD_DIA_103
-Successfully booked ticket from LAX to DIA for Anastasia_2 on flight LAX_DIA_119
-Successfully booked ticket from DFW to DIA for Reid_2 on flight DFW_DIA_126
-Successfully booked ticket from BOS to DIA for Britney_2 on flight BOS_DIA_136
-Successfully booked ticket from SFO to DIA for Hockey Team_2 on flight SFO_DIA_132
-Successfully booked ticket from SFO to DIA for Ralphie_2 on flight SFO_DIA_132
-Successfully booked ticket from DFW to DIA for Football Team_2 on flight DFW_DIA_126
-Successfully booked ticket from JFK to DIA for Baseball Team_2 on flight JFK_DIA_111
-Successfully booked ticket from LAX to DIA for Basketball Team_2 on flight LAX_DIA_119
-Successfully booked ticket from BOS to DIA for Deion_3 on flight BOS_DIA_136
-Successfully booked ticket from LAX to DIA for Elanor_3 on flight LAX_DIA_119
-Successfully booked ticket from SFO to DIA for Sam_3 on flight SFO_DIA_132
-Successfully booked ticket from BOS to DIA for Anastasia_3 on flight BOS_DIA_136
-Successfully booked ticket from LAX to DIA for Reid_3 on flight LAX_DIA_119
-Successfully booked ticket from BOS to DIA for Britney_3 on flight BOS_DIA_136
-Successfully booked ticket from ORD to DIA for Hockey Team_3 on flight ORD_DIA_103
-Successfully booked ticket from JFK to DIA for Ralphie_3 on flight JFK_DIA_111
-Successfully booked ticket from SFO to DIA for Football Team_3 on flight SFO_DIA_132
-Successfully booked ticket from JFK to DIA for Baseball Team_3 on flight JFK_DIA_111
-Successfully booked ticket from LAX to DIA for Basketball Team_3 on flight LAX_DIA_119
-Successfully booked ticket from LAX to DIA for Deion_4 on flight LAX_DIA_119
-Successfully booked ticket from ORD to DIA for Elanor_4 on flight ORD_DIA_103
-Successfully booked ticket from BOS to DIA for Sam_4 on flight BOS_DIA_136
-Successfully booked ticket from JFK to DIA for Anastasia_4 on flight JFK_DIA_111
-Successfully booked ticket from JFK to DIA for Reid_4 on flight JFK_DIA_111
-Successfully booked ticket from JFK to DIA for Britney_4 on flight JFK_DIA_111
-Successfully booked ticket from JFK to DIA for Hockey Team_4 on flight JFK_DIA_111
-Successfully booked ticket from SFO to DIA for Ralphie_4 on flight SFO_DIA_132
-Successfully booked ticket from LAX to DIA for Football Team_4 on flight LAX_DIA_119
-Successfully booked ticket from BOS to DIA for Baseball Team_4 on flight BOS_DIA_136
-Successfully booked ticket from DFW to DIA for Basketball Team_4 on flight DFW_DIA_126
-Successfully booked ticket from BOS to DIA for Deion_5 on flight BOS_DIA_136
-Successfully booked ticket from ORD to DIA for Elanor_5 on flight ORD_DIA_103
-Successfully booked ticket from SFO to DIA for Sam_5 on flight SFO_DIA_132
-Successfully booked ticket from JFK to DIA for Anastasia_5 on flight JFK_DIA_111
-Successfully booked ticket from LAX to DIA for Reid_5 on flight LAX_DIA_119
-Successfully booked ticket from LAX to DIA for Britney_5 on flight LAX_DIA_119
-Successfully booked ticket from DFW to DIA for Hockey Team_5 on flight DFW_DIA_126
-Successfully booked ticket from SFO to DIA for Ralphie_5 on flight SFO_DIA_132
-Successfully booked ticket from ORD to DIA for Football Team_5 on flight ORD_DIA_103
-Successfully booked ticket from LAX to DIA for Baseball Team_5 on flight LAX_DIA_119
-Successfully booked ticket from SFO to DIA for Basketball Team_5 on flight SFO_DIA_132
-Successfully booked ticket from BOS to DIA for Deion_6 on flight BOS_DIA_136
-Successfully booked ticket from LAX to DIA for Elanor_6 on flight LAX_DIA_119
-Successfully booked ticket from LAX to DIA for Sam_6 on flight LAX_DIA_119
-Successfully booked ticket from LAX to DIA for Anastasia_6 on flight LAX_DIA_119
-Successfully booked ticket from BOS to DIA for Reid_6 on flight BOS_DIA_136
-Successfully booked ticket from BOS to DIA for Britney_6 on flight BOS_DIA_136
-Successfully booked ticket from SFO to DIA for Hockey Team_6 on flight SFO_DIA_132
-Successfully booked ticket from LAX to DIA for Ralphie_6 on flight LAX_DIA_119
-Successfully booked ticket from ORD to DIA for Football Team_6 on flight ORD_DIA_103
-Successfully booked ticket from JFK to DIA for Baseball Team_6 on flight JFK_DIA_111
-Successfully booked ticket from JFK to DIA for Basketball Team_6 on flight JFK_DIA_111
-Successfully booked ticket from ORD to DIA for Deion_7 on flight ORD_DIA_103
-Successfully booked ticket from LAX to DIA for Elanor_7 on flight LAX_DIA_119
-Successfully booked ticket from LAX to DIA for Sam_7 on flight LAX_DIA_119
-Successfully booked ticket from BOS to DIA for Anastasia_7 on flight BOS_DIA_136
-Successfully booked ticket from LAX to DIA for Reid_7 on flight LAX_DIA_119
-Successfully booked ticket from DFW to DIA for Britney_7 on flight DFW_DIA_126
-Successfully booked ticket from ORD to DIA for Hockey Team_7 on flight ORD_DIA_103
-Successfully booked ticket from JFK to DIA for Ralphie_7 on flight JFK_DIA_111
-Successfully booked ticket from JFK to DIA for Football Team_7 on flight JFK_DIA_111
-Successfully booked ticket from DFW to DIA for Baseball Team_7 on flight DFW_DIA_126
-Successfully booked ticket from JFK to DIA for Basketball Team_7 on flight JFK_DIA_111
-Successfully booked ticket from LAX to DIA for Deion_8 on flight LAX_DIA_119
-Successfully booked ticket from LAX to DIA for Elanor_8 on flight LAX_DIA_120
-Successfully booked ticket from SFO to DIA for Sam_8 on flight SFO_DIA_132
-Successfully booked ticket from DFW to DIA for Anastasia_8 on flight DFW_DIA_126
-Successfully booked ticket from SFO to DIA for Reid_8 on flight SFO_DIA_132
-Successfully booked ticket from DFW to DIA for Britney_8 on flight DFW_DIA_126
-Successfully booked ticket from LAX to DIA for Hockey Team_8 on flight LAX_DIA_120
-Successfully booked ticket from LAX to DIA for Ralphie_8 on flight LAX_DIA_120
-Successfully booked ticket from ORD to DIA for Football Team_8 on flight ORD_DIA_103
-Successfully booked ticket from SFO to DIA for Baseball Team_8 on flight SFO_DIA_132
-Successfully booked ticket from DFW to DIA for Basketball Team_8 on flight DFW_DIA_126
-Successfully booked ticket from LAX to DIA for Deion_9 on flight LAX_DIA_120
-Successfully booked ticket from JFK to DIA for Elanor_9 on flight JFK_DIA_111
-Successfully booked ticket from LAX to DIA for Sam_9 on flight LAX_DIA_120
-Successfully booked ticket from LAX to DIA for Anastasia_9 on flight LAX_DIA_120
-Successfully booked ticket from SFO to DIA for Reid_9 on flight SFO_DIA_132
-Successfully booked ticket from ORD to DIA for Britney_9 on flight ORD_DIA_103
-Successfully booked ticket from BOS to DIA for Hockey Team_9 on flight BOS_DIA_136
-Successfully booked ticket from BOS to DIA for Ralphie_9 on flight BOS_DIA_136
-Successfully booked ticket from SFO to DIA for Football Team_9 on flight SFO_DIA_132
-Successfully booked ticket from ORD to DIA for Baseball Team_9 on flight ORD_DIA_103
-Successfully booked ticket from DFW to DIA for Basketball Team_9 on flight DFW_DIA_126
-Successfully booked ticket from DFW to DIA for Deion_10 on flight DFW_DIA_126
+Successfully booked ticket from JFK to DIA for Deion_1 on flight JFK_DIA_AA_123
+Successfully booked ticket from DIA to LAX for Elanor_1 on flight DIA_LAX_AA_127
+Successfully booked ticket from DIA to ORD for Sam_1 on flight DIA_ORD_AA_111
+Successfully booked ticket from DIA to ORD for Anastasia_1 on flight DIA_ORD_AA_111
+Successfully booked ticket from DIA to BOS for Reid_1 on flight DIA_BOS_JB_144
+Successfully booked ticket from JFK to DIA for Britney_1 on flight JFK_DIA_AA_123
+Successfully booked ticket from SFO to DIA for Hockey Team_1 on flight SFO_DIA_AA_142
+Successfully booked ticket from DIA to BOS for Ralphie_1 on flight DIA_BOS_JB_144
+Successfully booked ticket from DFW to DIA for Football Team_1 on flight DFW_DIA_AA_137
+Successfully booked ticket from DIA to DFW for Baseball Team_1 on flight DIA_DFW_UA_135
+Successfully booked ticket from DIA to SFO for Basketball Team_1 on flight DIA_SFO_AA_140
+Successfully booked ticket from BOS to DIA for Deion_2 on flight BOS_DIA_JB_145
+Successfully booked ticket from DIA to JFK for Elanor_2 on flight DIA_JFK_DA_119
+Successfully booked ticket from BOS to DIA for Sam_2 on flight BOS_DIA_JB_145
+Successfully booked ticket from BOS to DIA for Anastasia_2 on flight BOS_DIA_JB_145
+Successfully booked ticket from DIA to BOS for Reid_2 on flight DIA_BOS_JB_144
+Successfully booked ticket from LAX to DIA for Britney_2 on flight LAX_DIA_UA_131
+Successfully booked ticket from DIA to BOS for Hockey Team_2 on flight DIA_BOS_JB_144
+Successfully booked ticket from DIA to ORD for Ralphie_2 on flight DIA_ORD_AA_111
+Successfully booked ticket from DIA to JFK for Football Team_2 on flight DIA_JFK_DA_119
+Successfully booked ticket from DIA to ORD for Baseball Team_2 on flight DIA_ORD_AA_111
+Successfully booked ticket from DIA to BOS for Basketball Team_2 on flight DIA_BOS_JB_144
+Successfully booked ticket from BOS to DIA for Deion_3 on flight BOS_DIA_JB_145
+Successfully booked ticket from DIA to BOS for Elanor_3 on flight DIA_BOS_JB_144
+Successfully booked ticket from DIA to JFK for Sam_3 on flight DIA_JFK_DA_119
+Successfully booked ticket from DIA to JFK for Anastasia_3 on flight DIA_JFK_DA_119
+Successfully booked ticket from DIA to LAX for Reid_3 on flight DIA_LAX_AA_127
+Successfully booked ticket from DIA to LAX for Britney_3 on flight DIA_LAX_AA_127
+Successfully booked ticket from DFW to DIA for Hockey Team_3 on flight DFW_DIA_AA_137
+Successfully booked ticket from DIA to BOS for Ralphie_3 on flight DIA_BOS_JB_144
+Successfully booked ticket from DIA to LAX for Football Team_3 on flight DIA_LAX_AA_127
+Successfully booked ticket from DIA to BOS for Baseball Team_3 on flight DIA_BOS_JB_144
+Successfully booked ticket from DIA to DFW for Basketball Team_3 on flight DIA_DFW_UA_135
+Successfully booked ticket from DIA to ORD for Deion_4 on flight DIA_ORD_AA_111
+Successfully booked ticket from DIA to LAX for Elanor_4 on flight DIA_LAX_AA_127
+Successfully booked ticket from DIA to JFK for Sam_4 on flight DIA_JFK_DA_119
+Successfully booked ticket from SFO to DIA for Anastasia_4 on flight SFO_DIA_AA_142
+Successfully booked ticket from SFO to DIA for Reid_4 on flight SFO_DIA_AA_142
+Successfully booked ticket from DIA to ORD for Britney_4 on flight DIA_ORD_AA_111
+Successfully booked ticket from DIA to SFO for Hockey Team_4 on flight DIA_SFO_AA_140
+Successfully booked ticket from DIA to JFK for Ralphie_4 on flight DIA_JFK_DA_119
+Successfully booked ticket from DIA to BOS for Football Team_4 on flight DIA_BOS_JB_144
+Successfully booked ticket from DIA to ORD for Baseball Team_4 on flight DIA_ORD_AA_111
+Successfully booked ticket from LAX to DIA for Basketball Team_4 on flight LAX_DIA_UA_131
+Successfully booked ticket from DFW to DIA for Deion_5 on flight DFW_DIA_AA_137
+Successfully booked ticket from DIA to BOS for Elanor_5 on flight DIA_BOS_JB_144
+Successfully booked ticket from SFO to DIA for Sam_5 on flight SFO_DIA_AA_142
+Successfully booked ticket from DIA to LAX for Anastasia_5 on flight DIA_LAX_AA_127
+Successfully booked ticket from DIA to SFO for Reid_5 on flight DIA_SFO_AA_140
+Successfully booked ticket from DIA to JFK for Britney_5 on flight DIA_JFK_DA_119
+Successfully booked ticket from SFO to DIA for Hockey Team_5 on flight SFO_DIA_AA_142
+Successfully booked ticket from JFK to DIA for Ralphie_5 on flight JFK_DIA_AA_123
+Successfully booked ticket from DIA to BOS for Football Team_5 on flight DIA_BOS_JB_144
+Successfully booked ticket from DIA to SFO for Baseball Team_5 on flight DIA_SFO_AA_140
+Successfully booked ticket from DIA to DFW for Basketball Team_5 on flight DIA_DFW_UA_135
+Successfully booked ticket from DIA to JFK for Deion_6 on flight DIA_JFK_DA_119
+Successfully booked ticket from LAX to DIA for Elanor_6 on flight LAX_DIA_UA_131
+Successfully booked ticket from DIA to LAX for Sam_6 on flight DIA_LAX_AA_127
+Successfully booked ticket from DIA to BOS for Anastasia_6 on flight DIA_BOS_JB_144
+Successfully booked ticket from SFO to DIA for Reid_6 on flight SFO_DIA_AA_142
+Successfully booked ticket from DIA to LAX for Britney_6 on flight DIA_LAX_AA_127
+Successfully booked ticket from DIA to DFW for Hockey Team_6 on flight DIA_DFW_UA_135
+Successfully booked ticket from DIA to JFK for Ralphie_6 on flight DIA_JFK_DA_119
+Successfully booked ticket from DIA to DFW for Football Team_6 on flight DIA_DFW_UA_135
+Successfully booked ticket from DIA to SFO for Baseball Team_6 on flight DIA_SFO_AA_140
+Successfully booked ticket from DIA to SFO for Basketball Team_6 on flight DIA_SFO_AA_140
+Successfully booked ticket from DIA to JFK for Deion_7 on flight DIA_JFK_DA_119
+Successfully booked ticket from DIA to LAX for Elanor_7 on flight DIA_LAX_AA_127
+Successfully booked ticket from DIA to JFK for Sam_7 on flight DIA_JFK_DA_119
+Successfully booked ticket from DIA to JFK for Anastasia_7 on flight DIA_JFK_DA_119
+Successfully booked ticket from DIA to LAX for Reid_7 on flight DIA_LAX_AA_127
+Successfully booked ticket from DIA to ORD for Britney_7 on flight DIA_ORD_AA_111
+Successfully booked ticket from DIA to BOS for Hockey Team_7 on flight DIA_BOS_JB_144
+Successfully booked ticket from DIA to JFK for Ralphie_7 on flight DIA_JFK_DA_119
+Successfully booked ticket from BOS to DIA for Football Team_7 on flight BOS_DIA_JB_145
+Successfully booked ticket from DIA to LAX for Baseball Team_7 on flight DIA_LAX_AA_127
+Successfully booked ticket from DIA to LAX for Basketball Team_7 on flight DIA_LAX_AA_127
+Successfully booked ticket from DIA to BOS for Deion_8 on flight DIA_BOS_JB_144
+Successfully booked ticket from BOS to DIA for Elanor_8 on flight BOS_DIA_JB_145
+Successfully booked ticket from DIA to LAX for Sam_8 on flight DIA_LAX_AA_127
+Successfully booked ticket from DIA to SFO for Anastasia_8 on flight DIA_SFO_AA_140
+Successfully booked ticket from DIA to BOS for Reid_8 on flight DIA_BOS_JB_144
+Successfully booked ticket from DIA to ORD for Britney_8 on flight DIA_ORD_AA_111
+Successfully booked ticket from DIA to ORD for Hockey Team_8 on flight DIA_ORD_AA_111
+Successfully booked ticket from DIA to LAX for Ralphie_8 on flight DIA_LAX_AA_127
+Successfully booked ticket from DIA to LAX for Football Team_8 on flight DIA_LAX_AA_127
+Successfully booked ticket from DIA to LAX for Baseball Team_8 on flight DIA_LAX_AA_127
+Successfully booked ticket from LAX to DIA for Basketball Team_8 on flight LAX_DIA_UA_131
+Successfully booked ticket from DIA to LAX for Deion_9 on flight DIA_LAX_AA_127
+Successfully booked ticket from SFO to DIA for Elanor_9 on flight SFO_DIA_AA_142
+Successfully booked ticket from DIA to SFO for Sam_9 on flight DIA_SFO_AA_140
+Successfully booked ticket from DIA to BOS for Anastasia_9 on flight DIA_BOS_JB_144
+Successfully booked ticket from DIA to ORD for Reid_9 on flight DIA_ORD_AA_111
+Successfully booked ticket from DFW to DIA for Britney_9 on flight DFW_DIA_AA_137
+Successfully booked ticket from DIA to SFO for Hockey Team_9 on flight DIA_SFO_AA_140
+Successfully booked ticket from DIA to LAX for Ralphie_9 on flight DIA_LAX_AA_127
+Successfully booked ticket from DIA to ORD for Football Team_9 on flight DIA_ORD_AA_111
+Successfully booked ticket from DIA to LAX for Baseball Team_9 on flight DIA_LAX_AA_127
+Successfully booked ticket from DIA to DFW for Basketball Team_9 on flight DIA_DFW_UA_135
+Successfully booked ticket from DIA to JFK for Deion_10 on flight DIA_JFK_DA_119
 ---------- Finished Booking [Thursday] ----------
 ===== Executing Thursday =====
-Flight ORD_DIA_103 tookoff from ORD and landed in DIA with 15 passengers onboard.
-Flight JFK_DIA_111 tookoff from JFK and landed in DIA with 16 passengers onboard.
-Flight LAX_DIA_119 tookoff from LAX and landed in DIA with 20 passengers onboard.
-Flight LAX_DIA_120 tookoff from LAX and landed in DIA with 6 passengers onboard.
-Flight DFW_DIA_126 tookoff from DFW and landed in DIA with 12 passengers onboard.
-Flight SFO_DIA_132 tookoff from SFO and landed in DIA with 15 passengers onboard.
-Flight BOS_DIA_136 tookoff from BOS and landed in DIA with 16 passengers onboard.
+Flight DIA_ORD_AA_111 tookoff from DIA and landed in ORD with 12 passengers onboard.
+Flight DIA_JFK_DA_119 tookoff from DIA and landed in JFK with 14 passengers onboard.
+Flight JFK_DIA_AA_123 tookoff from JFK and landed in DIA with 3 passengers onboard.
+Flight DIA_LAX_AA_127 tookoff from DIA and landed in LAX with 19 passengers onboard.
+Flight LAX_DIA_UA_131 tookoff from LAX and landed in DIA with 4 passengers onboard.
+Flight DIA_DFW_UA_135 was delayed by mechanical issues with the plane
+Flight DIA_DFW_UA_135 tookoff from DIA and landed in DFW with 6 passengers onboard.
+Flight DFW_DIA_AA_137 tookoff from DFW and landed in DIA with 4 passengers onboard.
+Flight DIA_SFO_AA_140 tookoff from DIA and landed in SFO with 9 passengers onboard.
+Flight SFO_DIA_AA_142 tookoff from SFO and landed in DIA with 7 passengers onboard.
+Flight DIA_BOS_JB_144 was delayed by the Airline
+Flight DIA_BOS_JB_144 tookoff from DIA and landed in BOS with 16 passengers onboard.
+Flight BOS_DIA_JB_145 tookoff from BOS and landed in DIA with 6 passengers onboard.
 ===== Finished Executing Thursday =====
+
+
+Locations of travelers.
+DIA 24 ['Deion_1', 'Britney_1', 'Hockey Team_1', 'Football Team_1', 'Deion_2', 'Sam_2', 'Anastasia_2', 'Britney_2', 'Deion_3', 'Hockey Team_3', 'Anastasia_4', 'Reid_4', 'Basketball Team_4', 'Deion_5', 'Sam_5', 'Hockey Team_5', 'Ralphie_5', 'Elanor_6', 'Reid_6', 'Football Team_7', 'Elanor_8', 'Basketball Team_8', 'Elanor_9', 'Britney_9']
+ORD 12 ['Sam_1', 'Anastasia_1', 'Ralphie_2', 'Baseball Team_2', 'Deion_4', 'Britney_4', 'Baseball Team_4', 'Britney_7', 'Britney_8', 'Hockey Team_8', 'Reid_9', 'Football Team_9']
+JFK 14 ['Elanor_2', 'Football Team_2', 'Sam_3', 'Anastasia_3', 'Sam_4', 'Ralphie_4', 'Britney_5', 'Deion_6', 'Ralphie_6', 'Deion_7', 'Sam_7', 'Anastasia_7', 'Ralphie_7', 'Deion_10']
+LAX 19 ['Elanor_1', 'Reid_3', 'Britney_3', 'Football Team_3', 'Elanor_4', 'Anastasia_5', 'Sam_6', 'Britney_6', 'Elanor_7', 'Reid_7', 'Baseball Team_7', 'Basketball Team_7', 'Sam_8', 'Ralphie_8', 'Football Team_8', 'Baseball Team_8', 'Deion_9', 'Ralphie_9', 'Baseball Team_9']
+DFW 6 ['Baseball Team_1', 'Basketball Team_3', 'Basketball Team_5', 'Hockey Team_6', 'Football Team_6', 'Basketball Team_9']
+SFO 9 ['Basketball Team_1', 'Hockey Team_4', 'Reid_5', 'Baseball Team_5', 'Baseball Team_6', 'Basketball Team_6', 'Anastasia_8', 'Sam_9', 'Hockey Team_9']
+BOS 16 ['Reid_1', 'Ralphie_1', 'Reid_2', 'Hockey Team_2', 'Basketball Team_2', 'Elanor_3', 'Ralphie_3', 'Baseball Team_3', 'Football Team_4', 'Elanor_5', 'Football Team_5', 'Anastasia_6', 'Hockey Team_7', 'Deion_8', 'Reid_8', 'Anastasia_9']
+
+
+***** Friday *****
+Scheduling flights....
+Scheduled flight DIA_ORD_UA_146 on plane UA-50 on 1-Friday.
+Scheduled flight DIA_ORD_AA_147 on plane AA-46 on 1-Friday.
+Scheduled flight DIA_ORD_UA_148 on plane UA-5 on 1-Friday.
+Scheduled flight DIA_ORD_AA_149 on plane AA-18 on 1-Friday.
+Scheduled flight ORD_DIA_UA_150 on plane UA-6 on 1-Friday.
+Scheduled flight ORD_DIA_UA_151 on plane UA-7 on 1-Friday.
+Scheduled flight ORD_DIA_UA_152 on plane UA-56 on 1-Friday.
+Scheduled flight DIA_JFK_DA_153 on plane DA-31 on 1-Friday.
+Scheduled flight DIA_JFK_DA_154 on plane DA-11 on 1-Friday.
+Scheduled flight DIA_JFK_AA_155 on plane AA-15 on 1-Friday.
+Scheduled flight DIA_JFK_DA_156 on plane DA-38 on 1-Friday.
+Scheduled flight JFK_DIA_AA_157 on plane AA-54 on 1-Friday.
+Scheduled flight JFK_DIA_AA_158 on plane AA-53 on 1-Friday.
+Scheduled flight JFK_DIA_AA_159 on plane AA-57 on 1-Friday.
+Scheduled flight DIA_LAX_UA_160 on plane UA-34 on 1-Friday.
+Scheduled flight DIA_LAX_UA_161 on plane UA-23 on 1-Friday.
+Scheduled flight DIA_LAX_AA_162 on plane AA-28 on 1-Friday.
+Scheduled flight DIA_LAX_JB_163 on plane JB-47 on 1-Friday.
+Scheduled flight LAX_DIA_JB_164 on plane JB-37 on 1-Friday.
+Scheduled flight LAX_DIA_UA_165 on plane UA-55 on 1-Friday.
+Scheduled flight LAX_DIA_AA_166 on plane AA-16 on 1-Friday.
+Scheduled flight DIA_DFW_AA_167 on plane AA-21 on 1-Friday.
+Scheduled flight DIA_DFW_AA_168 on plane AA-13 on 1-Friday.
+Scheduled flight DFW_DIA_UA_169 on plane UA-5 on 1-Friday.
+Scheduled flight DFW_DIA_AA_170 on plane AA-44 on 1-Friday.
+Scheduled flight DIA_SFO_AA_171 on plane AA-1 on 1-Friday.
+Scheduled flight DIA_SFO_UA_172 on plane UA-29 on 1-Friday.
+Scheduled flight SFO_DIA_UA_173 on plane UA-26 on 1-Friday.
+Scheduled flight SFO_DIA_UA_174 on plane UA-58 on 1-Friday.
+Scheduled flight DIA_BOS_JB_175 on plane JB-24 on 1-Friday.
+Scheduled flight BOS_DIA_DA_176 on plane DA-10 on 1-Friday.
+All flights scheduled for Friday, week 1
 ---------- Booking [Friday] ----------
-Successfully booked ticket from DIA to BOS for Deion_1 on flight DIA_BOS_172
-Successfully booked ticket from DIA to SFO for Elanor_1 on flight DIA_SFO_167
-Successfully booked ticket from DIA to LAX for Sam_1 on flight DIA_LAX_153
-Successfully booked ticket from DIA to JFK for Anastasia_1 on flight DIA_JFK_145
-Successfully booked ticket from DIA to JFK for Reid_1 on flight DIA_JFK_145
-Successfully booked ticket from DIA to ORD for Britney_1 on flight DIA_ORD_137
-Successfully booked ticket from DIA to DFW for Hockey Team_1 on flight DIA_DFW_161
-Successfully booked ticket from DIA to ORD for Ralphie_1 on flight DIA_ORD_137
-Successfully booked ticket from DIA to ORD for Football Team_1 on flight DIA_ORD_137
-Successfully booked ticket from DIA to BOS for Baseball Team_1 on flight DIA_BOS_172
-Successfully booked ticket from DIA to JFK for Basketball Team_1 on flight DIA_JFK_145
-Successfully booked ticket from DIA to ORD for Deion_2 on flight DIA_ORD_137
-Successfully booked ticket from DIA to SFO for Elanor_2 on flight DIA_SFO_167
-Successfully booked ticket from DIA to BOS for Sam_2 on flight DIA_BOS_172
-Successfully booked ticket from DIA to JFK for Anastasia_2 on flight DIA_JFK_145
-Successfully booked ticket from DIA to ORD for Reid_2 on flight DIA_ORD_137
-Successfully booked ticket from DIA to JFK for Britney_2 on flight DIA_JFK_145
-Successfully booked ticket from DIA to LAX for Hockey Team_2 on flight DIA_LAX_153
-Successfully booked ticket from DIA to LAX for Ralphie_2 on flight DIA_LAX_153
-Successfully booked ticket from DIA to ORD for Football Team_2 on flight DIA_ORD_137
-Successfully booked ticket from DIA to ORD for Baseball Team_2 on flight DIA_ORD_137
-Successfully booked ticket from DIA to ORD for Basketball Team_2 on flight DIA_ORD_137
-Successfully booked ticket from DIA to ORD for Deion_3 on flight DIA_ORD_137
-Successfully booked ticket from DIA to SFO for Elanor_3 on flight DIA_SFO_167
-Successfully booked ticket from DIA to JFK for Sam_3 on flight DIA_JFK_145
-Successfully booked ticket from DIA to LAX for Anastasia_3 on flight DIA_LAX_153
-Successfully booked ticket from DIA to JFK for Reid_3 on flight DIA_JFK_145
-Successfully booked ticket from DIA to LAX for Britney_3 on flight DIA_LAX_153
-Successfully booked ticket from DIA to ORD for Hockey Team_3 on flight DIA_ORD_137
-Successfully booked ticket from DIA to BOS for Ralphie_3 on flight DIA_BOS_172
-Successfully booked ticket from DIA to ORD for Football Team_3 on flight DIA_ORD_137
-Successfully booked ticket from DIA to DFW for Baseball Team_3 on flight DIA_DFW_161
-Successfully booked ticket from DIA to BOS for Basketball Team_3 on flight DIA_BOS_172
-Successfully booked ticket from DIA to JFK for Deion_4 on flight DIA_JFK_145
-Successfully booked ticket from DIA to BOS for Elanor_4 on flight DIA_BOS_172
-Successfully booked ticket from DIA to LAX for Sam_4 on flight DIA_LAX_153
-Successfully booked ticket from DIA to LAX for Anastasia_4 on flight DIA_LAX_153
-Successfully booked ticket from DIA to LAX for Reid_4 on flight DIA_LAX_153
-Successfully booked ticket from DIA to JFK for Britney_4 on flight DIA_JFK_145
-Successfully booked ticket from DIA to SFO for Hockey Team_4 on flight DIA_SFO_167
-Successfully booked ticket from DIA to LAX for Ralphie_4 on flight DIA_LAX_153
-Successfully booked ticket from DIA to SFO for Football Team_4 on flight DIA_SFO_167
-Successfully booked ticket from DIA to DFW for Baseball Team_4 on flight DIA_DFW_161
-Successfully booked ticket from DIA to LAX for Basketball Team_4 on flight DIA_LAX_153
-Successfully booked ticket from DIA to ORD for Deion_5 on flight DIA_ORD_137
-Successfully booked ticket from DIA to DFW for Elanor_5 on flight DIA_DFW_161
-Successfully booked ticket from DIA to LAX for Sam_5 on flight DIA_LAX_153
-Successfully booked ticket from DIA to DFW for Anastasia_5 on flight DIA_DFW_161
-Successfully booked ticket from DIA to BOS for Reid_5 on flight DIA_BOS_172
-Successfully booked ticket from DIA to LAX for Britney_5 on flight DIA_LAX_153
-Successfully booked ticket from DIA to SFO for Hockey Team_5 on flight DIA_SFO_167
-Successfully booked ticket from DIA to ORD for Ralphie_5 on flight DIA_ORD_137
-Successfully booked ticket from DIA to DFW for Football Team_5 on flight DIA_DFW_161
-Successfully booked ticket from DIA to JFK for Baseball Team_5 on flight DIA_JFK_145
-Successfully booked ticket from DIA to SFO for Basketball Team_5 on flight DIA_SFO_167
-Successfully booked ticket from DIA to DFW for Deion_6 on flight DIA_DFW_161
-Successfully booked ticket from DIA to BOS for Elanor_6 on flight DIA_BOS_172
-Successfully booked ticket from DIA to LAX for Sam_6 on flight DIA_LAX_153
-Successfully booked ticket from DIA to DFW for Anastasia_6 on flight DIA_DFW_161
-Successfully booked ticket from DIA to DFW for Reid_6 on flight DIA_DFW_161
-Successfully booked ticket from DIA to LAX for Britney_6 on flight DIA_LAX_153
-Successfully booked ticket from DIA to LAX for Hockey Team_6 on flight DIA_LAX_153
-Successfully booked ticket from DIA to JFK for Ralphie_6 on flight DIA_JFK_145
-Successfully booked ticket from DIA to JFK for Football Team_6 on flight DIA_JFK_145
-Successfully booked ticket from DIA to BOS for Baseball Team_6 on flight DIA_BOS_172
-Successfully booked ticket from DIA to JFK for Basketball Team_6 on flight DIA_JFK_145
-Successfully booked ticket from DIA to LAX for Deion_7 on flight DIA_LAX_153
-Successfully booked ticket from DIA to JFK for Elanor_7 on flight DIA_JFK_145
-Successfully booked ticket from DIA to BOS for Sam_7 on flight DIA_BOS_172
-Successfully booked ticket from DIA to ORD for Anastasia_7 on flight DIA_ORD_137
-Successfully booked ticket from DIA to JFK for Reid_7 on flight DIA_JFK_145
-Successfully booked ticket from DIA to DFW for Britney_7 on flight DIA_DFW_161
-Successfully booked ticket from DIA to SFO for Hockey Team_7 on flight DIA_SFO_167
-Successfully booked ticket from DIA to BOS for Ralphie_7 on flight DIA_BOS_172
-Successfully booked ticket from DIA to JFK for Football Team_7 on flight DIA_JFK_145
-Successfully booked ticket from DIA to LAX for Baseball Team_7 on flight DIA_LAX_153
-Successfully booked ticket from DIA to ORD for Basketball Team_7 on flight DIA_ORD_137
-Successfully booked ticket from DIA to DFW for Deion_8 on flight DIA_DFW_161
-Successfully booked ticket from DIA to DFW for Elanor_8 on flight DIA_DFW_161
-Successfully booked ticket from DIA to JFK for Sam_8 on flight DIA_JFK_145
-Successfully booked ticket from DIA to DFW for Anastasia_8 on flight DIA_DFW_161
-Successfully booked ticket from DIA to JFK for Reid_8 on flight DIA_JFK_145
-Successfully booked ticket from DIA to JFK for Britney_8 on flight DIA_JFK_145
-Successfully booked ticket from DIA to JFK for Hockey Team_8 on flight DIA_JFK_145
-Successfully booked ticket from DIA to BOS for Ralphie_8 on flight DIA_BOS_172
-Successfully booked ticket from DIA to ORD for Football Team_8 on flight DIA_ORD_137
-Successfully booked ticket from DIA to DFW for Baseball Team_8 on flight DIA_DFW_161
-Successfully booked ticket from DIA to DFW for Basketball Team_8 on flight DIA_DFW_161
-Successfully booked ticket from DIA to SFO for Deion_9 on flight DIA_SFO_167
-Successfully booked ticket from DIA to ORD for Elanor_9 on flight DIA_ORD_137
-Successfully booked ticket from DIA to ORD for Sam_9 on flight DIA_ORD_137
-Successfully booked ticket from DIA to ORD for Anastasia_9 on flight DIA_ORD_137
-Successfully booked ticket from DIA to SFO for Reid_9 on flight DIA_SFO_167
-Successfully booked ticket from DIA to BOS for Britney_9 on flight DIA_BOS_172
-Successfully booked ticket from DIA to ORD for Hockey Team_9 on flight DIA_ORD_137
-Successfully booked ticket from DIA to BOS for Ralphie_9 on flight DIA_BOS_172
-Successfully booked ticket from DIA to LAX for Football Team_9 on flight DIA_LAX_153
-Successfully booked ticket from DIA to ORD for Baseball Team_9 on flight DIA_ORD_138
-Successfully booked ticket from DIA to SFO for Basketball Team_9 on flight DIA_SFO_167
-Successfully booked ticket from DIA to JFK for Deion_10 on flight DIA_JFK_146
+Successfully booked ticket from DIA to ORD for Deion_1 on flight DIA_ORD_UA_146
+Successfully booked ticket from LAX to DIA for Elanor_1 on flight LAX_DIA_JB_164
+Successfully booked ticket from ORD to DIA for Sam_1 on flight ORD_DIA_UA_150
+Successfully booked ticket from ORD to DIA for Anastasia_1 on flight ORD_DIA_UA_150
+Successfully booked ticket from BOS to DIA for Reid_1 on flight BOS_DIA_DA_176
+Successfully booked ticket from DIA to JFK for Britney_1 on flight DIA_JFK_DA_153
+Successfully booked ticket from DIA to LAX for Hockey Team_1 on flight DIA_LAX_UA_160
+Successfully booked ticket from BOS to DIA for Ralphie_1 on flight BOS_DIA_DA_176
+Successfully booked ticket from DIA to LAX for Football Team_1 on flight DIA_LAX_UA_160
+Successfully booked ticket from DFW to DIA for Baseball Team_1 on flight DFW_DIA_UA_169
+Successfully booked ticket from SFO to DIA for Basketball Team_1 on flight SFO_DIA_UA_173
+Successfully booked ticket from DIA to ORD for Deion_2 on flight DIA_ORD_UA_146
+Successfully booked ticket from JFK to DIA for Elanor_2 on flight JFK_DIA_AA_157
+Successfully booked ticket from DIA to DFW for Sam_2 on flight DIA_DFW_AA_167
+Successfully booked ticket from DIA to BOS for Anastasia_2 on flight DIA_BOS_JB_175
+Successfully booked ticket from BOS to DIA for Reid_2 on flight BOS_DIA_DA_176
+Successfully booked ticket from DIA to SFO for Britney_2 on flight DIA_SFO_AA_171
+Successfully booked ticket from BOS to DIA for Hockey Team_2 on flight BOS_DIA_DA_176
+Successfully booked ticket from ORD to DIA for Ralphie_2 on flight ORD_DIA_UA_150
+Successfully booked ticket from JFK to DIA for Football Team_2 on flight JFK_DIA_AA_157
+Successfully booked ticket from ORD to DIA for Baseball Team_2 on flight ORD_DIA_UA_150
+Successfully booked ticket from BOS to DIA for Basketball Team_2 on flight BOS_DIA_DA_176
+Successfully booked ticket from DIA to LAX for Deion_3 on flight DIA_LAX_UA_160
+Successfully booked ticket from BOS to DIA for Elanor_3 on flight BOS_DIA_DA_176
+Successfully booked ticket from JFK to DIA for Sam_3 on flight JFK_DIA_AA_157
+Successfully booked ticket from JFK to DIA for Anastasia_3 on flight JFK_DIA_AA_157
+Successfully booked ticket from LAX to DIA for Reid_3 on flight LAX_DIA_JB_164
+Successfully booked ticket from LAX to DIA for Britney_3 on flight LAX_DIA_JB_164
+Successfully booked ticket from DIA to BOS for Hockey Team_3 on flight DIA_BOS_JB_175
+Successfully booked ticket from BOS to DIA for Ralphie_3 on flight BOS_DIA_DA_176
+Successfully booked ticket from LAX to DIA for Football Team_3 on flight LAX_DIA_JB_164
+Successfully booked ticket from BOS to DIA for Baseball Team_3 on flight BOS_DIA_DA_176
+Successfully booked ticket from DFW to DIA for Basketball Team_3 on flight DFW_DIA_UA_169
+Successfully booked ticket from ORD to DIA for Deion_4 on flight ORD_DIA_UA_150
+Successfully booked ticket from LAX to DIA for Elanor_4 on flight LAX_DIA_JB_164
+Successfully booked ticket from JFK to DIA for Sam_4 on flight JFK_DIA_AA_157
+Successfully booked ticket from DIA to JFK for Anastasia_4 on flight DIA_JFK_DA_153
+Successfully booked ticket from DIA to BOS for Reid_4 on flight DIA_BOS_JB_175
+Successfully booked ticket from ORD to DIA for Britney_4 on flight ORD_DIA_UA_150
+Successfully booked ticket from SFO to DIA for Hockey Team_4 on flight SFO_DIA_UA_173
+Successfully booked ticket from JFK to DIA for Ralphie_4 on flight JFK_DIA_AA_157
+Successfully booked ticket from BOS to DIA for Football Team_4 on flight BOS_DIA_DA_176
+Successfully booked ticket from ORD to DIA for Baseball Team_4 on flight ORD_DIA_UA_150
+Successfully booked ticket from DIA to BOS for Basketball Team_4 on flight DIA_BOS_JB_175
+Successfully booked ticket from DIA to JFK for Deion_5 on flight DIA_JFK_DA_153
+Successfully booked ticket from BOS to DIA for Elanor_5 on flight BOS_DIA_DA_176
+Successfully booked ticket from DIA to JFK for Sam_5 on flight DIA_JFK_DA_153
+Successfully booked ticket from LAX to DIA for Anastasia_5 on flight LAX_DIA_JB_164
+Successfully booked ticket from SFO to DIA for Reid_5 on flight SFO_DIA_UA_173
+Successfully booked ticket from JFK to DIA for Britney_5 on flight JFK_DIA_AA_157
+Successfully booked ticket from DIA to SFO for Hockey Team_5 on flight DIA_SFO_AA_171
+Successfully booked ticket from DIA to DFW for Ralphie_5 on flight DIA_DFW_AA_167
+Successfully booked ticket from BOS to DIA for Football Team_5 on flight BOS_DIA_DA_176
+Successfully booked ticket from SFO to DIA for Baseball Team_5 on flight SFO_DIA_UA_173
+Successfully booked ticket from DFW to DIA for Basketball Team_5 on flight DFW_DIA_UA_169
+Successfully booked ticket from JFK to DIA for Deion_6 on flight JFK_DIA_AA_157
+Successfully booked ticket from DIA to LAX for Elanor_6 on flight DIA_LAX_UA_160
+Successfully booked ticket from LAX to DIA for Sam_6 on flight LAX_DIA_JB_164
+Successfully booked ticket from BOS to DIA for Anastasia_6 on flight BOS_DIA_DA_176
+Successfully booked ticket from DIA to JFK for Reid_6 on flight DIA_JFK_DA_153
+Successfully booked ticket from LAX to DIA for Britney_6 on flight LAX_DIA_JB_164
+Successfully booked ticket from DFW to DIA for Hockey Team_6 on flight DFW_DIA_UA_169
+Successfully booked ticket from JFK to DIA for Ralphie_6 on flight JFK_DIA_AA_157
+Successfully booked ticket from DFW to DIA for Football Team_6 on flight DFW_DIA_UA_169
+Successfully booked ticket from SFO to DIA for Baseball Team_6 on flight SFO_DIA_UA_173
+Successfully booked ticket from SFO to DIA for Basketball Team_6 on flight SFO_DIA_UA_173
+Successfully booked ticket from JFK to DIA for Deion_7 on flight JFK_DIA_AA_157
+Successfully booked ticket from LAX to DIA for Elanor_7 on flight LAX_DIA_JB_164
+Successfully booked ticket from JFK to DIA for Sam_7 on flight JFK_DIA_AA_157
+Successfully booked ticket from JFK to DIA for Anastasia_7 on flight JFK_DIA_AA_157
+Successfully booked ticket from LAX to DIA for Reid_7 on flight LAX_DIA_JB_164
+Successfully booked ticket from ORD to DIA for Britney_7 on flight ORD_DIA_UA_150
+Successfully booked ticket from BOS to DIA for Hockey Team_7 on flight BOS_DIA_DA_176
+Successfully booked ticket from JFK to DIA for Ralphie_7 on flight JFK_DIA_AA_157
+Successfully booked ticket from DIA to SFO for Football Team_7 on flight DIA_SFO_AA_171
+Successfully booked ticket from LAX to DIA for Baseball Team_7 on flight LAX_DIA_JB_164
+Successfully booked ticket from LAX to DIA for Basketball Team_7 on flight LAX_DIA_JB_164
+Successfully booked ticket from BOS to DIA for Deion_8 on flight BOS_DIA_DA_176
+Successfully booked ticket from DIA to SFO for Elanor_8 on flight DIA_SFO_AA_171
+Successfully booked ticket from LAX to DIA for Sam_8 on flight LAX_DIA_JB_164
+Successfully booked ticket from SFO to DIA for Anastasia_8 on flight SFO_DIA_UA_173
+Successfully booked ticket from BOS to DIA for Reid_8 on flight BOS_DIA_DA_176
+Successfully booked ticket from ORD to DIA for Britney_8 on flight ORD_DIA_UA_150
+Successfully booked ticket from ORD to DIA for Hockey Team_8 on flight ORD_DIA_UA_150
+Successfully booked ticket from LAX to DIA for Ralphie_8 on flight LAX_DIA_JB_164
+Successfully booked ticket from LAX to DIA for Football Team_8 on flight LAX_DIA_JB_164
+Successfully booked ticket from LAX to DIA for Baseball Team_8 on flight LAX_DIA_JB_164
+Successfully booked ticket from DIA to DFW for Basketball Team_8 on flight DIA_DFW_AA_167
+Successfully booked ticket from LAX to DIA for Deion_9 on flight LAX_DIA_JB_164
+Successfully booked ticket from DIA to DFW for Elanor_9 on flight DIA_DFW_AA_167
+Successfully booked ticket from SFO to DIA for Sam_9 on flight SFO_DIA_UA_173
+Successfully booked ticket from BOS to DIA for Anastasia_9 on flight BOS_DIA_DA_176
+Successfully booked ticket from ORD to DIA for Reid_9 on flight ORD_DIA_UA_150
+Successfully booked ticket from DIA to JFK for Britney_9 on flight DIA_JFK_DA_153
+Successfully booked ticket from SFO to DIA for Hockey Team_9 on flight SFO_DIA_UA_173
+Successfully booked ticket from LAX to DIA for Ralphie_9 on flight LAX_DIA_JB_164
+Successfully booked ticket from ORD to DIA for Football Team_9 on flight ORD_DIA_UA_150
+Successfully booked ticket from LAX to DIA for Baseball Team_9 on flight LAX_DIA_JB_164
+Successfully booked ticket from DFW to DIA for Basketball Team_9 on flight DFW_DIA_UA_169
+Successfully booked ticket from JFK to DIA for Deion_10 on flight JFK_DIA_AA_157
 ---------- Finished Booking [Friday] ----------
 ===== Executing Friday =====
-Flight DIA_ORD_137 tookoff from DIA and landed in ORD with 20 passengers onboard.
-Flight DIA_ORD_138 tookoff from DIA and landed in ORD with 1 passengers onboard.
-Flight DIA_JFK_145 tookoff from DIA and landed in JFK with 20 passengers onboard.
-Flight DIA_JFK_146 tookoff from DIA and landed in JFK with 1 passengers onboard.
-Flight DIA_LAX_153 tookoff from DIA and landed in LAX with 18 passengers onboard.
-Flight DIA_DFW_161 tookoff from DIA and landed in DFW with 15 passengers onboard.
-Flight DIA_SFO_167 tookoff from DIA and landed in SFO with 11 passengers onboard.
-Flight DIA_BOS_172 tookoff from DIA and landed in BOS with 14 passengers onboard.
+Flight DIA_ORD_UA_146 was delayed by mechanical issues with the plane
+Flight DIA_ORD_UA_146 was delayed due to poor weather
+Flight DIA_ORD_UA_146 was delayed and canceled.
+Flight ORD_DIA_UA_150 tookoff from ORD and landed in DIA with 12 passengers onboard.
+Flight DIA_JFK_DA_153 tookoff from DIA and landed in JFK with 6 passengers onboard.
+Flight JFK_DIA_AA_157 tookoff from JFK and landed in DIA with 14 passengers onboard.
+Flight DIA_LAX_UA_160 was delayed due to poor weather
+Flight DIA_LAX_UA_160 tookoff from DIA and landed in LAX with 4 passengers onboard.
+Flight LAX_DIA_JB_164 was delayed by mechanical issues with the plane
+Flight LAX_DIA_JB_164 tookoff from LAX and landed in DIA with 19 passengers onboard.
+Flight DIA_DFW_AA_167 tookoff from DIA and landed in DFW with 4 passengers onboard.
+Flight DFW_DIA_UA_169 tookoff from DFW and landed in DIA with 6 passengers onboard.
+Flight DIA_SFO_AA_171 was delayed due to poor weather
+Flight DIA_SFO_AA_171 tookoff from DIA and landed in SFO with 4 passengers onboard.
+Flight SFO_DIA_UA_173 tookoff from SFO and landed in DIA with 9 passengers onboard.
+Flight DIA_BOS_JB_175 tookoff from DIA and landed in BOS with 4 passengers onboard.
+Flight BOS_DIA_DA_176 tookoff from BOS and landed in DIA with 16 passengers onboard.
 ===== Finished Executing Friday =====
+
+
 ********** End Week 1 **********
+Number of airplanes: 58
+Locations of travelers.
+DIA 78 ['Deion_1', 'Elanor_1', 'Sam_1', 'Anastasia_1', 'Reid_1', 'Ralphie_1', 'Baseball Team_1', 'Basketball Team_1', 'Deion_2', 'Elanor_2', 'Reid_2', 'Hockey Team_2', 'Ralphie_2', 'Football Team_2', 'Baseball Team_2', 'Basketball Team_2', 'Elanor_3', 'Sam_3', 'Anastasia_3', 'Reid_3', 'Britney_3', 'Ralphie_3', 'Football Team_3', 'Baseball Team_3', 'Basketball Team_3', 'Deion_4', 'Elanor_4', 'Sam_4', 'Britney_4', 'Hockey Team_4', 'Ralphie_4', 'Football Team_4', 'Baseball Team_4', 'Elanor_5', 'Anastasia_5', 'Reid_5', 'Britney_5', 'Football Team_5', 'Baseball Team_5', 'Basketball Team_5', 'Deion_6', 'Sam_6', 'Anastasia_6', 'Britney_6', 'Hockey Team_6', 'Ralphie_6', 'Football Team_6', 'Baseball Team_6', 'Basketball Team_6', 'Deion_7', 'Elanor_7', 'Sam_7', 'Anastasia_7', 'Reid_7', 'Britney_7', 'Hockey Team_7', 'Ralphie_7', 'Baseball Team_7', 'Basketball Team_7', 'Deion_8', 'Sam_8', 'Anastasia_8', 'Reid_8', 'Britney_8', 'Hockey Team_8', 'Ralphie_8', 'Football Team_8', 'Baseball Team_8', 'Deion_9', 'Sam_9', 'Anastasia_9', 'Reid_9', 'Hockey Team_9', 'Ralphie_9', 'Football Team_9', 'Baseball Team_9', 'Basketball Team_9', 'Deion_10']
+ORD 0 []
+JFK 6 ['Britney_1', 'Anastasia_4', 'Deion_5', 'Sam_5', 'Reid_6', 'Britney_9']
+LAX 4 ['Hockey Team_1', 'Football Team_1', 'Deion_3', 'Elanor_6']
+DFW 4 ['Sam_2', 'Ralphie_5', 'Basketball Team_8', 'Elanor_9']
+SFO 4 ['Britney_2', 'Hockey Team_5', 'Football Team_7', 'Elanor_8']
+BOS 4 ['Anastasia_2', 'Hockey Team_3', 'Reid_4', 'Basketball Team_4']
 
 
 
